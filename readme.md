@@ -8,6 +8,7 @@
 
 ## Table of Contents
 - [AI-Native Software Engineering](#ai-native-software-engineering)
+- [AI-Native Engineering: 11 Hard Truths for 2025](#ai-native-engineering-11-hard-truths-for-2025)
 - [March 2025](#march-2025)
 - [May 2025 Revision](#may-2025-revision)
 - [December 2025 Revision](#december-2025-revision)
@@ -18,6 +19,32 @@
 | --- | --- |
 | **First Draft** | March 2025 |
 | **Revisions** | May 2025, December 2025 |
+
+---
+
+## AI-Native Engineering: 11 Hard Truths for 2025
+
+1. If a knowledge, methodology, or tech stack is older than 3 years, it’s obsolete until proven otherwise.
+
+2. Your codebase, your docs, your meeting notes — none of these are your backbone. Your only reliable, compounding asset is your test case library.
+
+3. To truly understand AI, you must understand its nature: AI is completely, fundamentally stateless.
+
+4. We can accept AI making mistakes — as long as those mistakes don’t kill the team before the next model upgrade.
+
+5. Software complexity must flatten.   We’re moving from deep, vertical stacks to wide, horizontal systems.
+
+6. The context window is the most critical computational resource every engineer must master.
+
+7. Plan–Act, Test–Code, and Doc–Code–Doc are the new operating system of engineering.
+
+8. The future of code isn’t abstraction — it’s tiny, isolated, AI-readable units that stand on their own.
+
+9. AI will never solve the first mile or the last mile. Those remain stubbornly, unavoidably human.
+
+10. AI-generated Artifacts are not side effects. They are a new software modality — and they become part of your engineering assets.
+
+11. The real power of AI IDEs and Agents is not generation —   it’s ruthless, intelligent context selection.
 
 ---
 
@@ -241,7 +268,7 @@
    1. **Shift our focus from managing functional code to managing test code.**
       As long as we have enough test cases to guarantee correctness across a wide variety of scenarios, we can reduce the burden of manually managing functional code.
 
-   2. **We can tolerate errors as long as they don’t kill us within three months.**
+   2. **We can tolerate AI making errors as long as they don’t kill us within three months.**
       Because three months later, model capabilities will improve again and may solve problems that we currently cannot.
 
    3. **But an advanced AI team will always be pushing the limits of the latest model.**
