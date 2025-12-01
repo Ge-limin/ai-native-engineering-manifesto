@@ -22,6 +22,7 @@
 
 ---
 
+<a id="ai-native-engineering-11-hard-truths-for-2025"></a>
 ## AI-Native Engineering: 11 Hard Truths for 2025
 
 1. If a knowledge, methodology, or tech stack is older than 3 years, it’s obsolete until proven otherwise.
@@ -48,6 +49,7 @@
 
 ---
 
+<a id="march-2025"></a>
 ## March 2025
 
 1. **Any knowledge system, methodology, or technology stack that is more than three years old should be considered obsolete.**
@@ -198,6 +200,7 @@
 
 ---
 
+<a id="may-2025-revision"></a>
 ## May 2025 Revision
 
 1. **From a business model perspective, AI IDEs will never be able to provide the same level of service as LLM web interfaces.**
@@ -261,6 +264,7 @@
 
 ---
 
+<a id="december-2025-revision"></a>
 ## December 2025 Revision
 
 1. **How do we deal with bugs introduced by LLMs?**
