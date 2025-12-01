@@ -265,11 +265,9 @@
 
 4. **[Repo] `https://github.com/ge-limin/story-ops`**
 
-   This is a deeper exploration where:
+   Your codebase, docs, meeting notes, recordings, team memory, and intuition are *not* the truly reliable assets of a project; the only reliable core asset is your test corpus. This repo is a deeper exploration whose vision is:
 
    > **user story = PRD = E2E test cases**
-
-   This represents a new paradigm of software engineering for the AI-native era.
 
 5. **Conventions and coding standards become even more important for AI-native teams.**
 
@@ -295,4 +293,4 @@
    This is exactly how humans stand on the shoulders of giants instead of reinventing the wheel every time.
    Without such relay, human technology would be frozen in place; with relay, both human and AI knowledge can compound.
 
-7. *(Reserved for future revisions.)*
+7. Understanding AI hinges on understanding **statelessness**. A codebase should shed all procedural and historical baggage so that any reader—every AI session—needs zero historical context to operate.
