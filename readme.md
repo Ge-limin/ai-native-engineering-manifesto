@@ -1,8 +1,24 @@
+# AI-Native Engineering Manifesto (English)
+> Authority-ready draft for sharing and longevity.
+
+[![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025)
+[![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-revision)
+[![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#december-2025-revision)
+
+---
+
+## Table of Contents
+- [AI-Native Software Engineering](#ai-native-software-engineering)
+- [March 2025](#march-2025)
+- [May 2025 Revision](#may-2025-revision)
+- [December 2025 Revision](#december-2025-revision)
+
 # AI-Native Software Engineering
 
-**Author:** [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/)
-**First Draft:** March 2025
-**Revisions:** May 2025, December 2025
+| **Author** | [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/) |
+| --- | --- |
+| **First Draft** | March 2025 |
+| **Revisions** | May 2025, December 2025 |
 
 ---
 

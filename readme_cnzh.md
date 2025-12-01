@@ -1,11 +1,28 @@
-AI-Native的软件工程理念
+# AI-Native 工程宣言（中文）
+> 便于分享、长期保存的权威版本。
 
-**Author:** [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/)
-**First Draft:** March 2025
-**Revisions:** May 2025, December 2025
+[![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025-cn)
+[![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-cn)
+[![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#dec-2025-cn)
 
 ---
 
+## Table of Contents
+- [AI-Native的软件工程理念](#ai-native软件工程理念)
+- [March 2025](#march-2025-cn)
+- [May 2025 修订](#may-2025-cn)
+- [Dec 2025 修订](#dec-2025-cn)
+
+AI-Native的软件工程理念
+
+| **Author** | [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/) |
+| --- | --- |
+| **First Draft** | March 2025 |
+| **Revisions** | May 2025, December 2025 |
+
+---
+
+<a id="march-2025-cn"></a>
 March 2025
 
 1. 一切诞生了超过3年的知识体系、方法论、技术栈，都应该被淘汰。
@@ -33,6 +50,7 @@ March 2025
 15. 四十年前的编程范式，目标是让机器读懂，二十年前是让人读懂，今天我们应该让AI读懂。AI能读懂什么文本是有规律的，但我们也不应该过分地finetune我们的prompt以至于overfitting，因为AI本身能力也在演进，例如COT的诞生、DeepSeek的opinionated的属性，这使得许多prompt engineering的技巧迅速落伍，所以这是一个永恒的话题。
 
 
+<a id="may-2025-cn"></a>
 May 2025 修订
 1. 从商业模式的角度，ai ide就不可能提供llm web端能提供的服务水平，站在使用者的角度，最好的服务来自于API调用或者Web端
 2. 一些曾经更激进的想象，我们有钱有人力后，可以开始试验：将所有的会议录制->生成字幕->生成prd->生成tdd->生成code draft。可以使用browser use做中介，转发内部的所有知识（包括代码库）到Gemini Web。以此提升团队内部所有工作的生产力。结合新的flowith、Manus等工具。这个内部的工作平台将成为每一个岗位，每一个成员的主要工作平台。作为新团队，我们没有那么多的历史债务，可以快速地收集所有的知识到这里。
@@ -43,6 +61,7 @@ May 2025 修订
 7. 由AI IDE创造的artifact是一种新的模态，它的意义就像人们第一次可以在网上发帖，传图片，传音频视频一样，面向普通人群的AI IDE应该打通到部署的最后一英里。
 8. AI IDE的codebase index应该是AST，符号级别的
 
+<a id="dec-2025-cn"></a>
 Dec 2025 修订
 1. 如何解决llm引入的bug：
     1. 将我们工作的重心从管理功能代码，转移成管理测试代码，只要我有足够海量的测试案例，我能够确保这些情况下最终的结果是正确的，我们就能够减少管理功能代码过程中的负担
