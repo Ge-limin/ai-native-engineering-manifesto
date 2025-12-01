@@ -1,5 +1,4 @@
 # AI-Native Engineering Manifesto (English)
-> Authority-ready draft for sharing and longevity.
 
 [![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025)
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-revision)
