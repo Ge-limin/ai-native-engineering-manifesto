@@ -1,5 +1,8 @@
 # AI-Native Engineering Manifesto (English)
 
+> 中文版请见：[AI-Native 工程宣言（中文）](./readme-zh.md)  
+> Extended deep-dive chapters live under `chapters/`, expanding several of the 11 hard truths into full articles.
+
 [![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025)
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-revision)
 [![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#december-2025-revision)
