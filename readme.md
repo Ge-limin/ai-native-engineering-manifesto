@@ -12,6 +12,7 @@
 ## Table of Contents
 - [AI-Native Software Engineering](#ai-native-software-engineering)
 - [AI-Native Engineering: 11 Hard Truths for 2025](#ai-native-engineering-11-hard-truths-for-2025)
+- [Extended Chapters: AI-Native Engineering Practices](#extended-chapters-ai-native-engineering-practices)
 - [March 2025](#march-2025)
 - [May 2025 Revision](#may-2025-revision)
 - [December 2025 Revision](#december-2025-revision)
@@ -48,7 +49,41 @@
 
 10. AI-generated Artifacts are not side effects. They are a new software modality — and they become part of your engineering assets.
 
-11. The real power of AI IDEs and Agents is not generation —   it’s ruthless, intelligent context selection.
+11. The real power of AI IDEs and Agents is not generation —   it's ruthless, intelligent context selection.
+
+---
+
+<a id="extended-chapters-ai-native-engineering-practices"></a>
+## Extended Chapters: AI-Native Engineering Practices
+
+The following chapters provide more systematic, engineering-focused expansions of several "hard truths" above, using original expressions from interviews and practical records, preserving first-hand insights:
+
+- *AI Statelessness and Context Window* (corresponds to truths 3, 6)  
+  - File: `chapters/01-ai-statelessness-and-context-window.md`
+- *Test–Code Loop: Why Test Code Is More Important Than Functional Code* (corresponds to truths 2, 7)  
+  - File: `chapters/02-test-code-loop.md`
+- *Debugging: Finding Bugs with AI in Deep Waters* (corresponds to truths 4, 9)  
+  - File: `chapters/03-debugging-with-ai.md`
+- *Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"* (corresponds to truths 6, 11)  
+  - File: `chapters/04-tools-and-context-selection.md`
+- *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc* (corresponds to truths 2, 3, 7, 9)  
+  - File: `chapters/05-ai-native-workflows.md`
+- *From Vertical to Horizontal Complexity* (corresponds to truths 5, 8)  
+  - File: `chapters/06-horizontal-complexity.md`
+- *Human-in-the-Loop and Onboarding* (corresponds to truths 4, 9)  
+  - File: `chapters/07-human-in-the-loop-and-onboarding.md`
+- *Choosing AI-Compatible Technology Stacks* (corresponds to truths 1, 8)  
+  - File: `chapters/08-ai-compatible-tech-stack.md`
+- *Five Levels of AI Coding and the User Story Driven Endgame* (corresponds to truth 7)  
+  - File: `chapters/09-ai-coding-levels-and-user-story-driven.md`
+- *The Structural Advantages of AI-Native Small Teams* (corresponds to truth 8)  
+  - File: `chapters/10-small-team-advantage.md`
+- *Conventions and Development Standards—Let AI Dance in Chains* (corresponds to Dec 2025 revision point 5)  
+  - File: `chapters/11-conventions-and-standards.md`
+- *Token as a Quantitative Measure of Project Scale* (corresponds to May 2025 revision point 5)  
+  - File: `chapters/12-token-as-project-scale.md`
+- *Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow* (corresponds to May 2025 revision points 2, 3)  
+  - File: `chapters/13-knowledge-workflow-pipeline.md`
 
 ---
 
