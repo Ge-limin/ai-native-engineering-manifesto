@@ -84,16 +84,6 @@
   - 文件：`chapters-zh/12-token-as-project-scale-zh.md`
 - 《会议录音→PRD→TDD→代码——AI-Native 团队的知识工作流》（对应 May 2025 修订第 2、3 条）  
   - 文件：`chapters-zh/13-knowledge-workflow-pipeline-zh.md`
-- 《从垂直复杂度到水平复杂度》（对应真相 5、8）  
-  - 文件：`chapters-zh/06-horizontal-complexity-zh.md`
-- 《Human-in-the-loop 与新人培养》（对应真相 4、9）  
-  - 文件：`chapters-zh/07-human-in-the-loop-and-onboarding-zh.md`
-- 《为 AI 选择兼容的技术栈》（对应真相 1、5）  
-  - 文件：`chapters-zh/08-ai-compatible-tech-stack-zh.md`
-- 《AI Coding 的五个等级与 User Story Driven 终局》（对应真相 7、9、10）  
-  - 文件：`chapters-zh/09-ai-coding-levels-and-user-story-driven-zh.md`
-- 《AI-Native 小团队的结构性优势》（与整篇宣言的整体取向相关）  
-  - 文件：`chapters-zh/10-small-team-advantage-zh.md`
 
 ---
 
