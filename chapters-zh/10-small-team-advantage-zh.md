@@ -1,6 +1,8 @@
 ## 第 10 章：AI-Native 小团队的结构性优势
 
-> “小团队能够胜出的时代……我们没有任何负担，可以尽可能地去彻底革新我们所有环节的生产力。”
+> "小团队能够胜出的时代……我们没有任何负担，可以尽可能地去彻底革新我们所有环节的生产力。"
+
+> 延伸阅读：规范如何帮助小团队保持稳定，参见[*Convention 与开发规范——让 AI 带着镣铐跳舞*](./11-conventions-and-standards-zh.md)。小团队可以实施的完整知识工作流 pipeline，参见[*会议录音→PRD→TDD→代码——AI-Native 团队的知识工作流*](./13-knowledge-workflow-pipeline-zh.md)。
 
 ### 1. 大公司 vs 小团队：谁更容易 AI-Native
 

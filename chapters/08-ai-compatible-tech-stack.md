@@ -2,6 +2,8 @@
 
 > "Very new technology stacks are hard for AI to master, because training data is too limited... The word 'compatibility' gains a new meaning in this context."
 
+> Extended reading: How small teams can leverage AI-compatible stacks more effectively, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how conventions work with tech stack choices, see [*Conventions and Development Standards—Let AI Dance in Chains*](./11-conventions-and-standards.md).
+
 ### 1. "AI Compatibility" Is a New Kind of Compatibility
 
 Traditionally, when we talk about "compatibility," we mean:

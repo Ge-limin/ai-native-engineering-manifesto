@@ -2,6 +2,8 @@
 
 > "The importance of Convention and development standards for AI-Native teams will only be higher, because they are the best tools to slow entropy increase. At the start of a project, we should design as many constraints and conventions as possible. Let AI 'dance in chains.'"
 
+> Extended reading: Why conventions are especially critical for small teams, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how conventions integrate with AI-native workflows, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+
 ### 1. Why Conventions Are More Important in the AI-Native Era
 
 In traditional software engineering, conventions and development standards are already important, but in the AI-Native context, their importance will further increase.

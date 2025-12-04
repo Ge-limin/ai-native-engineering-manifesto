@@ -2,6 +2,8 @@
 
 > "Vibe Coding only describes a very primitive stage. The endgame should be user-story-driven development."
 
+> Extended reading: How user stories enable horizontal complexity transformation, see [*From Vertical to Horizontal Complexity*](./06-horizontal-complexity.md). For the complete knowledge workflow that connects user stories to code, see [*Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow*](./13-knowledge-workflow-pipeline.md).
+
 ### 1. From Vibe Coding to Machine Manager
 
 Today, many people using AI IDEs (like Cursor) stay at a very primitive stage:

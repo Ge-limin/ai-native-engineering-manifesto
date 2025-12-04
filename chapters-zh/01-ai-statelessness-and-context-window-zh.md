@@ -2,7 +2,7 @@
 
 > “理解 AI 的关键在于理解它的无状态性。你的代码库应该抛弃所有的过程性历史信息，让任何一个读者，也就是你的每一个 AI session 都不用去理解任何历史上下文。”
 
-> 延伸阅读：测试体系如何兜底无状态世界里的不确定性，参见《Test–Code 循环：为什么测试代码比功能代码更重要》。
+> 延伸阅读：测试体系如何兜底无状态世界里的不确定性，参见[*Test–Code 循环：为什么测试代码比功能代码更重要*](./02-test-code-loop-zh.md)。
 
 ### 1. 理解 AI 的无状态性
 
@@ -40,7 +40,9 @@
 
 ### 3. Context Window：新时代程序员最重要的资源
 
-> “AI 的 context window 的上限，将是新时代程序员最需要关心的资源。”
+> "AI 的 context window 的上限，将是新时代程序员最需要关心的资源。"
+
+> 延伸阅读：Token 数量如何量化项目规模并影响 Context 选择策略，参见[*Token 作为项目规模的量化指标*](./12-token-as-project-scale-zh.md)。基于 Context Window 约束的实用工具选择，参见[*工具与 Context 选择：为什么 AI IDE 卖的是"上下文选择能力"*](./04-tools-and-context-selection-zh.md)。
 
 过去大家会关心什么 CPU、内存、硬盘，但是随着时代的发展，这些东西都越来越便宜了。现在最贵的是什么？是 token。
 
@@ -77,7 +79,7 @@ AI 的性能是随着你占用的 context window 的多少而变化的。当你�
 你应该把所有跟 A 有关的信息都删掉，只留下 B。  
 这样任何一个新的读者——包括每一次新的 AI 会话——都不需要去尝试理解“曾经有个什么”。
 
-> 这套接力策略在实际工作流中的完整形态，参见《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》。
+> 这套接力策略在实际工作流中的完整形态，参见[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)。
 
 ### 5. 全量 / 快照式文档 vs 增量式文档
 
@@ -92,6 +94,6 @@ AI 的能力上限就是它的 context window 的上限，其实人类也是一�
 
 我们与 AI 的协作，其实就是在模拟这种大厂里不同职能、不同团队的协作。
 
-> 文档与代码如何在这种模式下保持同步，以及文档如何参与工作流，详见《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》。
+> 文档与代码如何在这种模式下保持同步，以及文档如何参与工作流，详见[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)。
 
 

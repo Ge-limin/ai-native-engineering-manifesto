@@ -2,7 +2,7 @@
 
 > "Understanding AI hinges on understanding its statelessness. Your codebase should shed all procedural and historical baggage so that any reader—every AI session—needs zero historical context to operate."
 
-> Extended reading: How the test system provides a safety net for uncertainty in a stateless world, see *Test–Code Loop: Why Test Code Is More Important Than Functional Code*.
+> Extended reading: How the test system provides a safety net for uncertainty in a stateless world, see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md).
 
 ### 1. Understanding AI Statelessness
 
@@ -42,6 +42,8 @@ Therefore, the amount of documentation in the entire codebase must be kept minim
 
 > "The upper bound of AI's context window will be the most important 'resource' for programmers in this new era."
 
+> Extended reading: How token count quantifies project scale and impacts context selection strategies, see [*Token as a Quantitative Measure of Project Scale*](./12-token-as-project-scale.md). For practical tool selection based on context window constraints, see [*Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"*](./04-tools-and-context-selection.md).
+
 In the past, people cared about CPU, memory, and hard drives, but as time goes on, these things are getting cheaper. What's most expensive now? Tokens.
 
 AI's performance changes based on how much context window you occupy. When you find AI's capabilities improving, you'll definitely push against its upper limit, and you'll definitely become more wasteful. Even if the model itself becomes cheaper, because your usage increases dramatically, the money you spend may still be increasing.
@@ -77,7 +79,7 @@ It won't say "I changed A to B," otherwise it would require new readers to under
 You should delete all information related to A and only keep B.  
 This way, any new reader—including every new AI session—doesn't need to try to understand "what once existed."
 
-> The complete form of this relay strategy in actual workflows, see *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*.
+> The complete form of this relay strategy in actual workflows, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
 
 ### 5. Full/Snapshot Documentation vs. Incremental Documentation
 
@@ -92,5 +94,5 @@ How do humans handle complex systems? Think about how large companies collaborat
 
 Our collaboration with AI is actually simulating this collaboration between different functions and teams in large companies.
 
-> How documentation and code stay in sync in this mode, and how documentation participates in workflows, see *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*.
+> How documentation and code stay in sync in this mode, and how documentation participates in workflows, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
 

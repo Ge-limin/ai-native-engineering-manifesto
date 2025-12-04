@@ -2,6 +2,8 @@
 
 > "token 是一个可以对一个项目所含信息量进行量化的一个指标，一个项目沉淀的所有资产转换为 token 的数量就是对这个项目规模的衡量。"
 
+> 延伸阅读：Context Window 的限制如何创造了基于 Token 的测量需求，参见[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)。Token 规模如何影响工具选择，参见[*工具与 Context 选择：为什么 AI IDE 卖的是"上下文选择能力"*](./04-tools-and-context-selection-zh.md)。
+
 ### 1. 为什么用 Token 来衡量项目规模
 
 在传统软件工程里，我们衡量项目规模的方式通常是：

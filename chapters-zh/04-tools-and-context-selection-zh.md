@@ -2,7 +2,7 @@
 
 > “AI IDE 或 AI Agent 卖的是两个：一个是 Context 选择的能力，一个是最佳实践通用化的能力。”
 
-> 延伸阅读：Context window 的物理边界及其对工程实践的影响，参见《AI 的无状态性与 Context Window》。
+> 延伸阅读：Context window 的物理边界及其对工程实践的影响，参见[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)。
 
 本章聚焦于：不同 AI Coding 工具的特性、商业模式带来的隐性约束，以及为什么 RAG、任务管理器、多 Agent 这些“看上去很聪明”的东西，在 AI-native 工程实践里，往往是反模式。
 
@@ -23,6 +23,8 @@
 结果就是：**你以为它读了整个文件，其实它只看了中间的几段。**
 
 ### 2. 最好的工具往往来自模型厂商
+
+> 延伸阅读：Token 规模如何影响工具选择决策，参见[*Token 作为项目规模的量化指标*](./12-token-as-project-scale-zh.md)。
 
 因此，最好的工具其实是大模型厂商自己出的工具：
 
@@ -49,7 +51,7 @@
 - 你要有能力确认它改动的范围、改动的合理性  
 - 否则只是把“难以 review 的代码”换了一个通道涌进来
 
-> 当你在 Web 端处理超大上下文时，内部仍然需要用《Test–Code 循环：为什么测试代码比功能代码更重要》中所强调的测试体系来兜底。
+> 当你在 Web 端处理超大上下文时，内部仍然需要用[*Test–Code 循环：为什么测试代码比功能代码更重要*](./02-test-code-loop-zh.md)中所强调的测试体系来兜底。
 
 ### 4. RAG vs AST：为什么符号索引比“聪明检索”更可靠
 
@@ -115,7 +117,7 @@ RAG 这个技术从工程角度看，一个最大的缺点就是：**准确率�
 - 把真正有价值的“结论性信息”抽出来，合并到主要文档里  
 - 不要出现“我们本来设计是 A，后来改成 B”这样的句子
 
-> 这一点与《AI 的无状态性与 Context Window》中“删除所有 A，只保留 B”的原则是完全一致的。
+> 这一点与[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)中"删除所有 A，只保留 B"的原则是完全一致的。
 
 ### 7. 工具选择策略：谁干什么
 
@@ -131,8 +133,8 @@ RAG 这个技术从工程角度看，一个最大的缺点就是：**准确率�
 2. 如果用 IDE 型工具，心里要非常清楚：它可能在背后帮你“悄悄省 token”  
 3. 所有工具都只是“入口”，真正重要的是：  
    - 你的上下文组织方式  
-   - 你的测试体系（见《Test–Code 循环：为什么测试代码比功能代码更重要》）  
-   - 你的文档与代码是否一致（见《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》）
+   - 你的测试体系（见[*Test–Code 循环：为什么测试代码比功能代码更重要*](./02-test-code-loop-zh.md)）
+   - 你的文档与代码是否一致（见[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)）
 
 ### 8. Context 选择是 AI IDE 的核心能力
 

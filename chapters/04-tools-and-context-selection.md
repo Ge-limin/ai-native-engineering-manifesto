@@ -2,7 +2,7 @@
 
 > "AI IDEs or AI Agents sell two things: Context selection capability, and best practice generalization capability."
 
-> Extended reading: The physical boundaries of context windows and their impact on engineering practice, see *AI Statelessness and Context Window*.
+> Extended reading: The physical boundaries of context windows and their impact on engineering practice, see [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
 This chapter focuses on: characteristics of different AI coding tools, hidden constraints from business models, and why RAG, task managers, and multi-agent systems—things that "look smart"—are often anti-patterns in AI-native engineering practice.
 
@@ -23,6 +23,8 @@ Once context is compressed:
 The result is: **You think it read the entire file, but it actually only looked at a few paragraphs in the middle.**
 
 ### 2. The Best Tools Often Come from Model Vendors
+
+> Extended reading: How token scale affects tool selection decisions, see [*Token as a Quantitative Measure of Project Scale*](./12-token-as-project-scale.md).
 
 Therefore, the best tools are actually those made by large model vendors themselves:
 
@@ -49,7 +51,7 @@ But the biggest problem here isn't the tool, but:
 - You need the ability to confirm the scope and reasonableness of its changes
 - Otherwise, you're just changing the channel through which "hard-to-review code" floods in
 
-> When you're handling ultra-large context in the web interface, you still need to use the test system emphasized in *Test–Code Loop: Why Test Code Is More Important Than Functional Code* as a safety net.
+> When you're handling ultra-large context in the web interface, you still need to use the test system emphasized in [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md) as a safety net.
 
 ### 4. RAG vs. AST: Why Symbol Indexing Is More Reliable Than "Smart Retrieval"
 
@@ -115,7 +117,7 @@ The correct approach is:
 - Extract truly valuable "conclusive information" and merge it into main documentation
 - Don't have sentences like "we originally designed A, later changed to B"
 
-> This is completely consistent with the principle of "delete all A, only keep B" in *AI Statelessness and Context Window*.
+> This is completely consistent with the principle of "delete all A, only keep B" in [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
 ### 7. Tool Selection Strategy: Who Does What
 
@@ -131,8 +133,8 @@ Accompanying usage principles:
 2. If using IDE-type tools, be very clear in your mind: it might be "secretly saving tokens" behind your back
 3. All tools are just "entry points." What's really important is:
    - Your context organization method
-   - Your test system (see *Test–Code Loop: Why Test Code Is More Important Than Functional Code*)
-   - Whether your documentation and code are consistent (see *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*)
+   - Your test system (see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md))
+   - Whether your documentation and code are consistent (see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md))
 
 ### 8. Context Selection Is the Core Capability of AI IDEs
 

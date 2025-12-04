@@ -31,17 +31,17 @@
 
 1. 一切诞生了超过3年的知识体系、方法论、技术栈，都应该被淘汰。
 
-2. 你的代码库、文档库、会议纪要、会议录音、团队的记忆、直觉都不是项目真正可依赖的核心资产，唯一可依赖的核心资产有且只有你的测试案例库。（详见《Test–Code 循环：为什么测试代码比功能代码更重要》）
+2. 你的代码库、文档库、会议纪要、会议录音、团队的记忆、直觉都不是项目真正可依赖的核心资产，唯一可依赖的核心资产有且只有你的测试案例库。（详见[*Test–Code 循环：为什么测试代码比功能代码更重要*](chapters-zh/02-test-code-loop-zh.md)）
 
-3. 理解AI的关键在于理解**无状态性**。（详见《AI 的无状态性与 Context Window》）
+3. 理解AI的关键在于理解**无状态性**。（详见[*AI 的无状态性与 Context Window*](chapters-zh/01-ai-statelessness-and-context-window-zh.md)）
 
-4. 我们可以容忍AI犯错错误，只要它不会在下一次模型迭代前杀死我们。（与调试深水区和 Human-in-the-loop 相关，详见《Debugging：在深水区和 AI 一起查 bug》）
+4. 我们可以容忍AI犯错错误，只要它不会在下一次模型迭代前杀死我们。（与调试深水区和 Human-in-the-loop 相关，详见[*Debugging：在深水区和 AI 一起查 bug*](chapters-zh/03-debugging-with-ai-zh.md)）
 
 5. 软件的复杂度需要从垂直转为水平
 
-6. AI的context window 的上限，将是新时代程序员最需要关心的资源。（详见《AI 的无状态性与 Context Window》）
+6. AI的context window 的上限，将是新时代程序员最需要关心的资源。（详见[*AI 的无状态性与 Context Window*](chapters-zh/01-ai-statelessness-and-context-window-zh.md)）
 
-7. Plan–Act、Test–Code、Doc–Code–Doc 是新工程时代的工程循环。（详见《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》）
+7. Plan–Act、Test–Code、Doc–Code–Doc 是新工程时代的工程循环。（详见[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](chapters-zh/05-ai-native-workflows-zh.md)）
 
 8. 代码的未来不是复用和抽象，而是海量彼此独立、足够小、AI 可直接理解的单元。
 
@@ -49,7 +49,7 @@
 
 10. AI 生成的 Artifact 是一种新的模态。
 
-11. AI IDE或AI Agent 卖的是Context选择的能力。（详见《工具与 Context 选择：为什么 AI IDE 卖的是“上下文选择能力”》）
+11. AI IDE或AI Agent 卖的是Context选择的能力。（详见[*工具与 Context 选择：为什么 AI IDE 卖的是"上下文选择能力"*](chapters-zh/04-tools-and-context-selection-zh.md)）
 
 ---
 
@@ -58,32 +58,19 @@
 
 以下章节对上文中的若干“真相”做了更系统、更工程化的展开，采用了访谈与实战记录中的原始表述，尽量保留了第一手语感：
 
-- 《AI 的无状态性与 Context Window》（对应真相 3、6）  
-  - 文件：`chapters-zh/01-ai-statelessness-and-context-window-zh.md`
-- 《Test–Code 循环：为什么测试代码比功能代码更重要》（对应真相 2、7）  
-  - 文件：`chapters-zh/02-test-code-loop-zh.md`
-- 《Debugging：在深水区和 AI 一起查 bug》（对应真相 4、9）  
-  - 文件：`chapters-zh/03-debugging-with-ai-zh.md`
-- 《工具与 Context 选择：为什么 AI IDE 卖的是“上下文选择能力”》（对应真相 6、11）  
-  - 文件：`chapters-zh/04-tools-and-context-selection-zh.md`
-- 《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》（对应真相 2、3、7、9）  
-  - 文件：`chapters-zh/05-ai-native-workflows-zh.md`
-- 《从垂直复杂度到水平复杂度》（对应真相 5、8）  
-  - 文件：`chapters-zh/06-horizontal-complexity-zh.md`
-- 《Human-in-the-loop 与新人培养》（对应真相 4、9）  
-  - 文件：`chapters-zh/07-human-in-the-loop-and-onboarding-zh.md`
-- 《为 AI 选择兼容的技术栈》（对应真相 1、12）  
-  - 文件：`chapters-zh/08-ai-compatible-tech-stack-zh.md`
-- 《AI Coding 的五个等级与 User Story Driven 终局》（对应真相 7）  
-  - 文件：`chapters-zh/09-ai-coding-levels-and-user-story-driven-zh.md`
-- 《AI-Native 小团队的结构性优势》（对应真相 8）  
-  - 文件：`chapters-zh/10-small-team-advantage-zh.md`
-- 《Convention 与开发规范——让 AI 带着镣铐跳舞》（对应 Dec 2025 修订第 5 条）  
-  - 文件：`chapters-zh/11-conventions-and-standards-zh.md`
-- 《Token 作为项目规模的量化指标》（对应 May 2025 修订第 5 条）  
-  - 文件：`chapters-zh/12-token-as-project-scale-zh.md`
-- 《会议录音→PRD→TDD→代码——AI-Native 团队的知识工作流》（对应 May 2025 修订第 2、3 条）  
-  - 文件：`chapters-zh/13-knowledge-workflow-pipeline-zh.md`
+- [*AI 的无状态性与 Context Window*](chapters-zh/01-ai-statelessness-and-context-window-zh.md)（对应真相 3、6）
+- [*Test–Code 循环：为什么测试代码比功能代码更重要*](chapters-zh/02-test-code-loop-zh.md)（对应真相 2、7）
+- [*Debugging：在深水区和 AI 一起查 bug*](chapters-zh/03-debugging-with-ai-zh.md)（对应真相 4、9）
+- [*工具与 Context 选择：为什么 AI IDE 卖的是"上下文选择能力"*](chapters-zh/04-tools-and-context-selection-zh.md)（对应真相 6、11）
+- [*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](chapters-zh/05-ai-native-workflows-zh.md)（对应真相 2、3、7、9）
+- [*从垂直复杂度到水平复杂度*](chapters-zh/06-horizontal-complexity-zh.md)（对应真相 5、8）
+- [*Human-in-the-loop 与新人培养*](chapters-zh/07-human-in-the-loop-and-onboarding-zh.md)（对应真相 4、9）
+- [*为 AI 选择兼容的技术栈*](chapters-zh/08-ai-compatible-tech-stack-zh.md)（对应真相 1、12）
+- [*AI Coding 的五个等级与 User Story Driven 终局*](chapters-zh/09-ai-coding-levels-and-user-story-driven-zh.md)（对应真相 7）
+- [*AI-Native 小团队的结构性优势*](chapters-zh/10-small-team-advantage-zh.md)（对应真相 8）
+- [*Convention 与开发规范——让 AI 带着镣铐跳舞*](chapters-zh/11-conventions-and-standards-zh.md)（对应 Dec 2025 修订第 5 条）
+- [*Token 作为项目规模的量化指标*](chapters-zh/12-token-as-project-scale-zh.md)（对应 May 2025 修订第 5 条）
+- [*会议录音→PRD→TDD→代码——AI-Native 团队的知识工作流*](chapters-zh/13-knowledge-workflow-pipeline-zh.md)（对应 May 2025 修订第 2、3 条）
 
 ---
 

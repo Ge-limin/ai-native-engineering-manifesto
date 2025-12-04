@@ -2,6 +2,8 @@
 
 > "A more radical vision to try when we have enough funding and people: Record all meetings → generate subtitles/transcripts → generate PRDs → generate TDDs → generate code drafts."
 
+> Extended reading: How this pipeline fits into the broader AI-native workflow loops, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md). For why small teams are particularly well-suited for this approach, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how user stories connect to this pipeline, see [*Five Levels of AI Coding and the User Story Driven Endgame*](./09-ai-coding-levels-and-user-story-driven.md).
+
 ### 1. A "Radical" but Feasible Vision
 
 In the May 2025 revision, a complete knowledge workflow pipeline was mentioned:

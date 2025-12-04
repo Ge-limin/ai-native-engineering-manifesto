@@ -2,6 +2,8 @@
 
 > "一些曾经更激进的想象，我们有钱有人力后，可以开始试验：将所有的会议录制→生成字幕→生成 PRD→生成 TDD→生成 code draft。"
 
+> 延伸阅读：这个 pipeline 如何融入更广泛的 AI-Native 工作流循环，参见[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)。为什么小团队特别适合这种方法，参见[*AI-Native 小团队的结构性优势*](./10-small-team-advantage-zh.md)。用户故事如何与这个 pipeline 连接，参见[*AI Coding 的五个等级与 User Story Driven 终局*](./09-ai-coding-levels-and-user-story-driven-zh.md)。
+
 ### 1. 一个“激进”但可行的愿景
 
 在 May 2025 修订里，提到了一个完整的知识工作流 pipeline：

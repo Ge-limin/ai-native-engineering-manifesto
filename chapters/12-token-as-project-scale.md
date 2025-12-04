@@ -2,6 +2,8 @@
 
 > "Token is a metric that can quantify the information volume contained in a project. The total number of tokens needed to encode all assets of a project is a measure of its scale."
 
+> Extended reading: How context window limits create the need for token-based measurement, see [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md). For how token scale affects tool selection, see [*Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"*](./04-tools-and-context-selection.md).
+
 ### 1. Why Use Token to Measure Project Scale
 
 In traditional software engineering, we usually measure project scale by:

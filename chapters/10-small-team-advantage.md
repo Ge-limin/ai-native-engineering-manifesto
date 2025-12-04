@@ -2,6 +2,8 @@
 
 > "The era when small teams can win... We have no burden, we can completely revolutionize productivity in all our links as much as possible."
 
+> Extended reading: How conventions help small teams maintain stability, see [*Conventions and Development Standards—Let AI Dance in Chains*](./11-conventions-and-standards.md). For the complete knowledge workflow pipeline that small teams can implement, see [*Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow*](./13-knowledge-workflow-pipeline.md).
+
 ### 1. Large Companies vs. Small Teams: Who's More AI-Native
 
 On the surface, large companies have more money, more people, more infrastructure,  

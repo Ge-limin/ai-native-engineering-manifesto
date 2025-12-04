@@ -2,6 +2,8 @@
 
 > "AI cannot solve all problems. AI cannot solve the first mile and the last mile. This is essentially a human problem."
 
+> Extended reading: How debugging workflows demonstrate human-AI collaboration boundaries, see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md). For how test systems provide safety nets that enable human delegation, see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md).
+
 ### 1. First Mile and Last Mile: The Two Ends AI Cannot Do
 
 In the AI-native world, there are two things AI cannot do, or cannot do well, or shouldn't do:
@@ -63,8 +65,8 @@ A relatively healthy onboarding approach is:
 
 For training newcomers, the best training scenarios aren't "have them write features," but:
 
-- Take them through debugging a real deep bug together (see *Debugging: Finding Bugs with AI in Deep Waters*)
-- Take them through adding a test for a critical path together (see *Test–Code Loop: Why Test Code Is More Important Than Functional Code*)
+- Take them through debugging a real deep bug together (see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md))
+- Take them through adding a test for a critical path together (see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md))
 
 In these scenarios, newcomers must learn:
 

@@ -2,7 +2,7 @@
 
 > “你一定要花非常多，超过 50% 的时间来写 testing code。”
 
-> 延伸阅读：在无状态世界里，为什么测试案例库是唯一可靠资产，参见《AI 的无状态性与 Context Window》。
+> 延伸阅读：在无状态世界里，为什么测试案例库是唯一可靠资产，参见[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)。
 
 ### 1. 生产力悖论：为什么过去大家都不写测试
 
@@ -45,7 +45,9 @@
 
 ### 4. 在混沌中编程：Test–Code 的本质
 
-> “今天的 AI 编程，你可以理解成是一种在不确定性中、在混沌中、在混乱中的一种编程。我们已经非常清楚地知道 AI 写出来的代码是不可靠的。”
+> "今天的 AI 编程，你可以理解成是一种在不确定性中、在混沌中、在混乱中的一种编程。我们已经非常清楚地知道 AI 写出来的代码是不可靠的。"
+
+> 延伸阅读：人类评审如何与测试驱动的质量保证相结合，参见[*Human-in-the-loop 与新人培养*](./07-human-in-the-loop-and-onboarding-zh.md)。
 
 但我们又不得不让 AI 来写代码，因为它的产能实在太高了。我们不得不接受这种混乱，不得不接受这种不确定性。
 
@@ -113,6 +115,6 @@
 - **测试代码通过**：说明变更大概率还是可控的  
 - **测试代码不过**：建议认真评审，甚至尝试重新做一遍这件事
 
-> 在深水区 debug 场景下，测试如何与日志和文档配合使用，参见《Debugging：在深水区和 AI 一起查 bug》与《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》。
+> 在深水区 debug 场景下，测试如何与日志和文档配合使用，参见[*Debugging：在深水区和 AI 一起查 bug*](./03-debugging-with-ai-zh.md)与[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)。
 
 

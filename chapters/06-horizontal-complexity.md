@@ -2,6 +2,8 @@
 
 > "We should transform software complexity from vertical to horizontal... by increasing the diversity of paths, we can reduce the depth of any single path."
 
+> Extended reading: How user stories serve as natural segmentation units for horizontal complexity, see [*Five Levels of AI Coding and the User Story Driven Endgame*](./09-ai-coding-levels-and-user-story-driven.md). For small team advantages in implementing this transformation, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md).
+
 ### 1. What Are "Vertical Complexity" and "Horizontal Complexity"
 
 Traditional software systems like to grow "vertically":  
@@ -20,7 +22,7 @@ This is the so-called complexity transformation "from vertical to horizontal."
 
 ### 2. Why Horizontal Complexity Is More Suitable for AI-Native Systems
 
-AI's context window is limited, which is already covered in *AI Statelessness and Context Window*. Looking at complexity in combination with this:
+AI's context window is limited, which is already covered in [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md). Looking at complexity in combination with this:
 
 - **Single chain with very deep depth**:  
   - Context spans too many modules, files, historical decisions

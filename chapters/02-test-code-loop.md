@@ -2,7 +2,7 @@
 
 > "You must spend a lot of time—more than 50%—writing testing code."
 
-> Extended reading: Why the test case library is the only reliable asset in a stateless world, see *AI Statelessness and Context Window*.
+> Extended reading: Why the test case library is the only reliable asset in a stateless world, see [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
 ### 1. The Productivity Paradox: Why Nobody Wrote Tests in the Past
 
@@ -46,6 +46,8 @@ Under this premise, the only effective way to protect yourself is to use massive
 ### 4. Programming in Chaos: The Essence of Test–Code
 
 > "Today's AI programming can be understood as programming in uncertainty, in chaos, in confusion. We already know very clearly that AI-generated code is unreliable."
+
+> Extended reading: How human review integrates with test-driven quality assurance, see [*Human-in-the-Loop and Onboarding*](./07-human-in-the-loop-and-onboarding.md).
 
 But we have to let AI write code because its productivity is too high. We have to accept this chaos, accept this uncertainty.
 
@@ -113,5 +115,5 @@ At this point, the only thing you can trust is your entire set of massive test c
 - **Test code passes**: It means the changes are likely still controllable
 - **Test code fails**: It's recommended to carefully review, or even try to redo this work
 
-> In deep-water debugging scenarios, how tests work with logs and documentation, see *Debugging: Finding Bugs with AI in Deep Waters* and *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*.
+> In deep-water debugging scenarios, how tests work with logs and documentation, see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md) and [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
 

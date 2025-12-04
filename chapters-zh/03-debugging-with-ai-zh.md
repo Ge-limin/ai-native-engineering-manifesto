@@ -2,7 +2,7 @@
 
 > “今天的 AI 编程，是在不确定性中、在混沌中、在混乱中的一种编程。”
 
-> 延伸阅读：Debug 工作流如何嵌入整体工程循环，参见《Test–Code 循环：为什么测试代码比功能代码更重要》与《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》。
+> 延伸阅读：Debug 工作流如何嵌入整体工程循环，参见[*Test–Code 循环：为什么测试代码比功能代码更重要*](./02-test-code-loop-zh.md)与[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)。
 
 本章通过一个扑克游戏动画队列的真实案例，来展示 AI-native 团队在“深水区”如何和 AI 协作调试，以及在哪些地方，人类必须亲自下场。
 
@@ -32,7 +32,7 @@
 
 如果你一上来就把 issue 告诉它，它可能会过于 focus 在这个 issue 本身，而漏掉一些关键逻辑和模块。
 
-> 这里“先建上下文、再动手”的模式，与《AI 的无状态性与 Context Window》中关于 session 接力的讨论是一致的。
+> 这里"先建上下文、再动手"的模式，与[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)中关于 session 接力的讨论是一致的。
 
 ### 3. 第二步：精确描述问题，而不是一句“有 bug”
 
@@ -133,7 +133,7 @@
 - 你知道怎么优化描述，让问题的描述更清晰  
 - 你也知道 AI 的能与不能，哪些环节要提前预留给人类
 
-> 这个总结与《AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc》中对中高复杂度需求的标准流程是互相印证的。
+> 这个总结与[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)中对中高复杂度需求的标准流程是互相印证的。
 
 ### 9. 关键原则：AI 改对了也不能“误打误撞”
 

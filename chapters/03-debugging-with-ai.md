@@ -2,7 +2,7 @@
 
 > "Today's AI programming is programming in uncertainty, in chaos, in confusion."
 
-> Extended reading: How debug workflows embed into overall engineering loops, see *Test–Code Loop: Why Test Code Is More Important Than Functional Code* and *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*.
+> Extended reading: How debug workflows embed into overall engineering loops, see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md) and [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
 
 This chapter uses a real case of a poker game animation queue to demonstrate how AI-native teams collaborate with AI in "deep waters" and where humans must step in personally.
 
@@ -32,7 +32,7 @@ First, I wouldn't immediately throw the issue to AI, but first let AI build its 
 
 If you immediately tell it the issue, it might focus too much on the issue itself and miss some key logic and modules.
 
-> The pattern of "build context first, then act" here is consistent with the discussion about session relay in *AI Statelessness and Context Window*.
+> The pattern of "build context first, then act" here is consistent with the discussion about session relay in [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
 ### 3. Step Two: Precisely Describe the Problem, Not Just "There's a Bug"
 
@@ -133,7 +133,7 @@ This way, when you encounter similar problems next time:
 - You know how to optimize descriptions to make problem descriptions clearer
 - You also know AI's capabilities and limitations, which links need to be reserved for humans in advance
 
-> This summary is mutually confirmed with the standard process for medium-to-high complexity requirements in *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*.
+> This summary is mutually confirmed with the standard process for medium-to-high complexity requirements in [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
 
 ### 9. Key Principle: Even If AI Fixes It Correctly, Don't Accept "Accidental Fixes"
 

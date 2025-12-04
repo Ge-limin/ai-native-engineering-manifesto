@@ -58,32 +58,19 @@
 
 The following chapters provide more systematic, engineering-focused expansions of several "hard truths" above, using original expressions from interviews and practical records, preserving first-hand insights:
 
-- *AI Statelessness and Context Window* (corresponds to truths 3, 6)  
-  - File: `chapters/01-ai-statelessness-and-context-window.md`
-- *Test–Code Loop: Why Test Code Is More Important Than Functional Code* (corresponds to truths 2, 7)  
-  - File: `chapters/02-test-code-loop.md`
-- *Debugging: Finding Bugs with AI in Deep Waters* (corresponds to truths 4, 9)  
-  - File: `chapters/03-debugging-with-ai.md`
-- *Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"* (corresponds to truths 6, 11)  
-  - File: `chapters/04-tools-and-context-selection.md`
-- *AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc* (corresponds to truths 2, 3, 7, 9)  
-  - File: `chapters/05-ai-native-workflows.md`
-- *From Vertical to Horizontal Complexity* (corresponds to truths 5, 8)  
-  - File: `chapters/06-horizontal-complexity.md`
-- *Human-in-the-Loop and Onboarding* (corresponds to truths 4, 9)  
-  - File: `chapters/07-human-in-the-loop-and-onboarding.md`
-- *Choosing AI-Compatible Technology Stacks* (corresponds to truths 1, 8)  
-  - File: `chapters/08-ai-compatible-tech-stack.md`
-- *Five Levels of AI Coding and the User Story Driven Endgame* (corresponds to truth 7)  
-  - File: `chapters/09-ai-coding-levels-and-user-story-driven.md`
-- *The Structural Advantages of AI-Native Small Teams* (corresponds to truth 8)  
-  - File: `chapters/10-small-team-advantage.md`
-- *Conventions and Development Standards—Let AI Dance in Chains* (corresponds to Dec 2025 revision point 5)  
-  - File: `chapters/11-conventions-and-standards.md`
-- *Token as a Quantitative Measure of Project Scale* (corresponds to May 2025 revision point 5)  
-  - File: `chapters/12-token-as-project-scale.md`
-- *Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow* (corresponds to May 2025 revision points 2, 3)  
-  - File: `chapters/13-knowledge-workflow-pipeline.md`
+- [*AI Statelessness and Context Window*](chapters/01-ai-statelessness-and-context-window.md) (corresponds to truths 3, 6)
+- [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](chapters/02-test-code-loop.md) (corresponds to truths 2, 7)
+- [*Debugging: Finding Bugs with AI in Deep Waters*](chapters/03-debugging-with-ai.md) (corresponds to truths 4, 9)
+- [*Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"*](chapters/04-tools-and-context-selection.md) (corresponds to truths 6, 11)
+- [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](chapters/05-ai-native-workflows.md) (corresponds to truths 2, 3, 7, 9)
+- [*From Vertical to Horizontal Complexity*](chapters/06-horizontal-complexity.md) (corresponds to truths 5, 8)
+- [*Human-in-the-Loop and Onboarding*](chapters/07-human-in-the-loop-and-onboarding.md) (corresponds to truths 4, 9)
+- [*Choosing AI-Compatible Technology Stacks*](chapters/08-ai-compatible-tech-stack.md) (corresponds to truths 1, 8)
+- [*Five Levels of AI Coding and the User Story Driven Endgame*](chapters/09-ai-coding-levels-and-user-story-driven.md) (corresponds to truth 7)
+- [*The Structural Advantages of AI-Native Small Teams*](chapters/10-small-team-advantage.md) (corresponds to truth 8)
+- [*Conventions and Development Standards—Let AI Dance in Chains*](chapters/11-conventions-and-standards.md) (corresponds to Dec 2025 revision point 5)
+- [*Token as a Quantitative Measure of Project Scale*](chapters/12-token-as-project-scale.md) (corresponds to May 2025 revision point 5)
+- [*Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow*](chapters/13-knowledge-workflow-pipeline.md) (corresponds to May 2025 revision points 2, 3)
 
 ---
 

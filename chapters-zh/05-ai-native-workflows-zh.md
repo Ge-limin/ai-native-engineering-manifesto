@@ -2,7 +2,7 @@
 
 > “Plan–Act、Test–Code、Doc–Code–Doc 是新工程时代的工程循环。”
 
-> 延伸阅读：本章是对《AI 的无状态性与 Context Window》和《Test–Code 循环：为什么测试代码比功能代码更重要》在流程层面的综合应用。
+> 延伸阅读：本章是对[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)和[*Test–Code 循环：为什么测试代码比功能代码更重要*](./02-test-code-loop-zh.md)在流程层面的综合应用。
 
 本章把分散在对话中的工作流实践整理在一起，聚焦在三个循环：  
 Plan–Act、Test–Code、Doc–Code–Doc，以及它们在一个两人小团队里的真实落地方式。
@@ -30,7 +30,7 @@ Plan–Act、Test–Code、Doc–Code–Doc，以及它们在一个两人小团�
 
 - AI 多轮尝试仍然没有解决  
 - 这时候就要开始人工读代码、手动修改  
-- 同时用 AI 之前生成的 debug logs 和文档作为辅助信息（详见《Debugging：在深水区和 AI 一起查 bug》）
+- 同时用 AI 之前生成的 debug logs 和文档作为辅助信息（详见[*Debugging：在深水区和 AI 一起查 bug*](./03-debugging-with-ai-zh.md)）
 
 ### 2. Test–Code：用测试驱动 AI 的混沌产能
 
@@ -38,7 +38,7 @@ Plan–Act、Test–Code、Doc–Code–Doc，以及它们在一个两人小团�
 
 > “用海量的 test case 去 cover 人脑 cover 不了的部分。”
 
-这一点在《Test–Code 循环：为什么测试代码比功能代码更重要》章节已经详细展开，这里只强调和工作流相关的部分：
+这一点在[*Test–Code 循环：为什么测试代码比功能代码更重要*](./02-test-code-loop-zh.md)章节已经详细展开，这里只强调和工作流相关的部分：
 
 1. 新需求开发时，尽可能让 AI 同时生成功能代码和测试代码  
 2. 人类在 code review 中要把大部分精力放在测试代码上：  
@@ -82,7 +82,7 @@ Plan–Act、Test–Code、Doc–Code–Doc，以及它们在一个两人小团�
 - 但在任务完成之后，要么删掉，要么只抽取其中的“结论性信息”合并到主文档  
 - 永远不要在代码库里保留“我们把 A 改成 B”这样的历史描述
 
-> 这一点与《AI 的无状态性与 Context Window》中“删除所有 A，只保留 B”的原则是一致的。
+> 这一点与[*AI 的无状态性与 Context Window*](./01-ai-statelessness-and-context-window-zh.md)中"删除所有 A，只保留 B"的原则是一致的。
 
 ### 4. 中高复杂度需求的标准工作流
 
@@ -110,6 +110,8 @@ Plan–Act、Test–Code、Doc–Code–Doc，以及它们在一个两人小团�
    - 把真正有价值的结论固化到长期文档里（Doc–Code–Doc）
 
 ### 5. UI/UX 工作流：设计先行，AI 辅助还原
+
+> 延伸阅读：这个工作流如何与降低垂直复杂度相关，参见[*从垂直复杂度到水平复杂度*](./06-horizontal-complexity-zh.md)。
 
 在前端/UI 这条线上，对于一个有设计师的团队，一个相对成熟的 AI-native 工作流是：
 

@@ -2,6 +2,8 @@
 
 > "Convention、开发规范的重要性，对于 AI-Native 团队的重要性，只会更高，因为它们是延缓熵增最好的手段。项目起步时一定要尽可能地设计好尽可能多地束缚。让 AI 带着镣铐跳舞。"
 
+> 延伸阅读：为什么规范对小团队尤其关键，参见[*AI-Native 小团队的结构性优势*](./10-small-team-advantage-zh.md)。规范如何与 AI-Native 工作流集成，参见[*AI-Native 工作流：Plan–Act、Test–Code、Doc–Code–Doc*](./05-ai-native-workflows-zh.md)。
+
 ### 1. 为什么 Convention 在 AI-Native 时代更重要
 
 在传统软件工程里，convention 和开发规范已经很重要了，但在 AI-Native 的背景下，它们的重要性会进一步提升。

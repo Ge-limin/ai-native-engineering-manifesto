@@ -1,6 +1,8 @@
 ## 第 9 章：AI Coding 的五个等级与 User Story Driven 终局
 
-> “Vibe Coding 只描绘了一个非常初级的 coding 阶段，终局应该是 user story 驱动的开发。”
+> "Vibe Coding 只描绘了一个非常初级的 coding 阶段，终局应该是 user story 驱动的开发。"
+
+> 延伸阅读：用户故事如何实现水平复杂度转型，参见[*从垂直复杂度到水平复杂度*](./06-horizontal-complexity-zh.md)。连接用户故事到代码的完整知识工作流，参见[*会议录音→PRD→TDD→代码——AI-Native 团队的知识工作流*](./13-knowledge-workflow-pipeline-zh.md)。
 
 ### 1. 从 Vibe Coding 到机器管理者
 
@@ -57,7 +59,7 @@
   在理想状态下，一个 user story = 一组端到端测试，这在 `story-ops` 的探索里已经被明确提出。
 
 - **天然适合水平复杂度**：  
-  每个 story 都是一条相对独立的浅链路，可以很好地贴合“复杂度从垂直到水平”的思路（详见《从垂直复杂度到水平复杂度》）。
+  每个 story 都是一条相对独立的浅链路，可以很好地贴合"复杂度从垂直到水平"的思路（详见[*从垂直复杂度到水平复杂度*](./06-horizontal-complexity-zh.md)）。
 
 当团队真正到达 User Story Driven 的阶段时：
 
