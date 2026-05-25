@@ -71,6 +71,8 @@
 - [*Convention 与开发规范——让 AI 带着镣铐跳舞*](chapters-zh/11-conventions-and-standards-zh.md)（对应 Dec 2025 修订第 5 条）
 - [*Token 作为项目规模的量化指标*](chapters-zh/12-token-as-project-scale-zh.md)（对应 May 2025 修订第 5 条）
 - [*会议录音→PRD→TDD→代码——AI-Native 团队的知识工作流*](chapters-zh/13-knowledge-workflow-pipeline-zh.md)（对应 May 2025 修订第 2、3 条）
+- [*SSOT 是软件工程的根原则*](chapters-zh/14-ssot-as-the-root-principle-zh.md)（连接真相 2、3、7、11）
+- [*SSOT 九层金字塔模型*](chapters-zh/15-ssot-nine-layer-pyramid-model-zh.md)（连接真相 2、3、7、11）
 
 ---
 
