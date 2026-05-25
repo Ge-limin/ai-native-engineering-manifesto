@@ -55,6 +55,12 @@ The failure mode is not "no documentation." It is worse: there is documentation 
 
 AI-native work increases the pressure. AI agents produce large amounts of architecture notes, code, tests, logs, meeting summaries, marketing copy, and task reports. These artifacts are useful only if they have ownership and evidence. Otherwise they become new sources of confusion.
 
+For an AI agent, SSOT is an action boundary. If old strategy, new code, stale logs, open tasks, and public copy all look equally authoritative, the agent will synthesize a plausible but wrong system. It may protect legacy, over-promote a POC, or merge several historical "current priorities" into one incorrect plan.
+
+For non-engineering teammates, SSOT is the collaboration entry point. Product needs current strategy. Operations needs real workflow. Sales needs the promise boundary. Customer support needs the logs, evidence, and fix path for user problems.
+
+SSOT is therefore not internal engineering hygiene. It is the shared truth system for AI agents, product, operations, sales, customer support, release operators, and engineering.
+
 ### 3. "Current Priority" Is the Most Dangerous Phrase
 
 The easiest way to create split-brain is to let many documents describe the current priority.
@@ -108,6 +114,8 @@ That remains true, but it needs one correction: a test suite is only reliable wh
 
 A legacy test suite can stay green while the new product mainline is unproven. A release can pass CICD while the real user path, AI skills invocation, runtime contract, billing path, provider permission, or release evidence is broken.
 
+AI agents can misread that green state as proof that the current mainline is covered. Operations can assume the new workflow can run. Sales can assume the capability is safe to promise. Customer support can follow old logs and old troubleshooting paths.
+
 The mature question is not "do we have enough tests?"
 
 The mature question is:
@@ -135,7 +143,9 @@ An AI agent needs to know:
 
 If the repository contains many conflicting answers, AI will synthesize a plausible but wrong system.
 
-SSOT is how a team makes its system readable by stateless intelligence.
+Product, operations, sales, and customer support need the same model for current strategy, dependable promise, real Flow, and evidence. Otherwise non-engineering work falls back to oral memory and recent meetings.
+
+SSOT is how a team makes its system readable by stateless intelligence and operationally usable by the whole team.
 
 ### 7. Summary
 

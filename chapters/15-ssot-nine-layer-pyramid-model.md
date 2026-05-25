@@ -31,7 +31,7 @@ It answers:
 | L1 Mission | Why does the product exist? | Mission and long-term product identity |
 | L2 Strategy | What must the team win now? | Current priorities and resource choices |
 | L3 Promise | What is supported and dependable? | Public promise, support boundary, release statement |
-| L4 Flow | How do stakeholders complete real tasks? | User, AI agent, operator, product, engineering, support, and release flows |
+| L4 Flow | How do stakeholders complete real tasks? | User, AI agent, release operator, product, engineering, customer support, and release flows |
 | L5 Domain Model | What concepts and invariants are stable? | Domain objects, states, permissions, billing rules |
 | L6 System Boundary | How do components and providers divide responsibility? | Boundary map, call direction, ownership rules |
 | L7 Contract | What executable contracts exist? | API, database, environment, permission, release contracts |
@@ -99,7 +99,7 @@ It must include every stakeholder workflow:
 - product workflow
 - operations workflow
 - engineering workflow
-- support workflow
+- customer support workflow
 - release workflow
 - internal experiment workflow
 
@@ -107,9 +107,11 @@ For AI-native systems, this layer is critical because AI agents are not passive 
 
 If the Flow layer does not define how agents work, agents will guess.
 
+For non-engineering teammates, Flow is equally important. Product, operations, sales, and customer support usually reason from scenarios, handoffs, failure paths, and evidence instead of component calls. Flow gives them one shared map.
+
 ### 6. Every Specialized Document Needs Ownership
 
-Architecture, operations, working plans, testing, UI, security, and support documents can keep their own structures.
+Architecture, operations, working plans, testing, UI, security, and customer support documents can keep their own structures.
 
 But every specialized document must declare:
 
@@ -160,10 +162,11 @@ This keeps long-term memory greenfield and current-state focused.
 4. Add ownership metadata to specialized documents.
 5. Define evidence levels: inventory, contract read, static evidence, runtime evidence, release evidence.
 6. Converge test, release, and operations entry points.
-7. Teach AI agents to read top-down.
-8. Teach AI agents to update bottom-up.
-9. Delete or compress completed plans.
-10. Rename concepts when their meaning changes.
+7. Give product, operations, sales, and customer support one path to promise, Flow, and evidence.
+8. Teach AI agents to read top-down.
+9. Teach AI agents to update bottom-up.
+10. Delete or compress completed plans.
+11. Rename concepts when their meaning changes.
 
 ### 10. Summary
 
