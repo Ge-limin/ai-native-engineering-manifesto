@@ -71,8 +71,8 @@ The following chapters provide more systematic, engineering-focused expansions o
 - [*Conventions and Development Standards—Let AI Dance in Chains*](chapters/11-conventions-and-standards.md) (corresponds to Dec 2025 revision point 5)
 - [*Token as a Quantitative Measure of Project Scale*](chapters/12-token-as-project-scale.md) (corresponds to May 2025 revision point 5)
 - [*Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow*](chapters/13-knowledge-workflow-pipeline.md) (corresponds to May 2025 revision points 2, 3)
-- [*SSOT as the Root Principle of Software Engineering*](chapters/14-ssot-as-the-root-principle.md) (connects truths 2, 3, 7, 11)
-- [*The SSOT Nine-Layer Pyramid Model*](chapters/15-ssot-nine-layer-pyramid-model.md) (connects truths 2, 3, 7, 11)
+- [*SSOT as the Root Principle of Software Engineering*](chapters/14-ssot-as-the-root-principle.md) (connects truths 2, 3, 7, 11; [full article with diagrams](https://liminge.space/blog/ssot-nine-layer-pyramid))
+- [*The SSOT Nine-Layer Pyramid Model*](chapters/15-ssot-nine-layer-pyramid-model.md) (connects truths 2, 3, 7, 11; [full article with diagrams](https://liminge.space/blog/nine-layer-pyramid-principles))
 
 ---
 

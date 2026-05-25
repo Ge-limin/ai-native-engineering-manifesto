@@ -2,6 +2,8 @@
 
 > 如果把所有软件工程原则继续向下归并，它们最终都在谈 Single Source of Truth。
 
+> 完整公开版（含图）：[SSOT：为什么所有软件工程原则最终都在谈同一件事](https://liminge.space/cn/blog/ssot-nine-layer-pyramid)。
+
 AI-Native 团队最难的问题，不是生成更多代码、更多文档、更多测试或更多计划，而是判断哪个事实才是当前事实。
 
 一个成熟项目里会同时存在大量资产：

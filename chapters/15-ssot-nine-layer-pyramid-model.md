@@ -2,6 +2,8 @@
 
 > The nine-layer pyramid is a forced reading and updating model: read top-down, update bottom-up.
 
+> Full public version with diagrams: [How to Build an SSOT Nine-Layer Pyramid Model](https://liminge.space/blog/nine-layer-pyramid-principles).
+
 SSOT fails when it remains a slogan. A team needs a structure that tells every human and AI reader where a fact belongs, what it affects, and what evidence proves it.
 
 The SSOT Nine-Layer Pyramid is one such structure.

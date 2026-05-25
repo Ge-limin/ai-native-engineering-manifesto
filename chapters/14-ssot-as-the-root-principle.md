@@ -2,6 +2,8 @@
 
 > If all software engineering principles are merged down to their root, they are all about Single Source of Truth.
 
+> Full public version with diagrams: [SSOT: Why Every Software Engineering Principle Is Really About One Thing](https://liminge.space/blog/ssot-nine-layer-pyramid).
+
 The hardest problem in an AI-native team is not generating more code, more documents, more tests, or more plans. The hardest problem is knowing which fact is current.
 
 A mature codebase is full of artifacts:

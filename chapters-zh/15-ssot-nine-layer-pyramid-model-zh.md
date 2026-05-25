@@ -2,6 +2,8 @@
 
 > 九层金字塔是一套强制阅读和强制更新模型：阅读必须自顶向下，更新必须自底向上。
 
+> 完整公开版（含图）：[如何构造 SSOT 九层金字塔模型：一套可复用的 SSOT 原则](https://liminge.space/cn/blog/nine-layer-pyramid-principles)。
+
 SSOT 如果只是一句口号，很快就会失效。团队需要一套结构，告诉每个人和 AI：事实属于哪一层、影响哪些层、由什么 evidence 证明。
 
 SSOT 九层金字塔模型就是这样一套结构。
