@@ -6,6 +6,7 @@
 [![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025)
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-revision)
 [![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#december-2025-revision)
+[![Revision May 2026](https://img.shields.io/badge/Revision-May_2026-af52de)](#may-2026-revision)
 
 ---
 
@@ -16,13 +17,14 @@
 - [March 2025](#march-2025)
 - [May 2025 Revision](#may-2025-revision)
 - [December 2025 Revision](#december-2025-revision)
+- [May 2026 Revision](#may-2026-revision)
 
 # AI-Native Software Engineering
 
 | **Author** | [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/) |
 | --- | --- |
 | **First Draft** | March 2025 |
-| **Revisions** | May 2025, December 2025 |
+| **Revisions** | May 2025, December 2025, May 2026 |
 
 ---
 
@@ -352,3 +354,38 @@ The following chapters provide more systematic, engineering-focused expansions o
    Without such relay, human technology would be frozen in place; with relay, both human and AI knowledge can compound.
 
 7. Understanding AI hinges on understanding **statelessness**. A codebase should shed all procedural and historical baggage so that any reader—every AI session—needs zero historical context to operate.
+
+---
+
+<a id="may-2026-revision"></a>
+## May 2026 Revision
+
+1. **SSOT is the root principle behind software engineering.**
+
+   The May 2026 SSOT essays argue that DRY, KISS, SOLID, domain modeling, testing, observability, CICD, and documentation governance all collapse into one deeper discipline: every important fact needs one authoritative home, one owner, and one evidence path. The core problem in complex software is not lack of content. It is not knowing which content still counts.
+
+   - Full article: [*SSOT: Why Every Software Engineering Principle Is Really About One Thing*](https://liminge.space/blog/ssot-nine-layer-pyramid)
+   - Manifesto chapter: [*SSOT as the Root Principle of Software Engineering*](chapters/14-ssot-as-the-root-principle.md)
+
+2. **AI-native teams split truth faster than traditional teams.**
+
+   AI agents generate architecture notes, code, tests, logs, meeting summaries, release notes, marketing copy, and task reports at very high volume. Without SSOT, these artifacts quickly become contradictory historical snapshots. AI agents may protect legacy paths, over-promote POCs, or merge several old "current priorities" into one confident but wrong plan.
+
+3. **SSOT is not an internal engineering documentation habit.**
+
+   Product, operations, sales, customer support, release operators, AI agents, and engineering all need one truth model. Product needs current strategy. Operations needs real workflow. Sales needs the promise boundary. Customer support needs logs, evidence, and fix paths. Engineering needs to know whether code changes affect contract, boundary, domain model, Flow, promise, or strategy.
+
+4. **The SSOT Nine-Layer Pyramid is the structure for keeping truth current.**
+
+   The pyramid forces top-down reading: mission, strategy, promise, Flow, domain model, system boundary, contract, implementation, evidence. It also forces bottom-up updating: implementation and evidence first, then contract, boundary, domain, Flow, promise, strategy, and mission only when meaning changes.
+
+   - Full article: [*How to Build an SSOT Nine-Layer Pyramid Model*](https://liminge.space/blog/nine-layer-pyramid-principles)
+   - Manifesto chapter: [*The SSOT Nine-Layer Pyramid Model*](chapters/15-ssot-nine-layer-pyramid-model.md)
+
+5. **Every concrete failure must be mapped back to pyramid layers.**
+
+   The essays use examples such as stale READMEs misleading agents, POCs appearing in pitch decks, `skill` becoming `workflow` while names stay old, internal APIs silently becoming contracts, test-entry sprawl, stale logs, completed migration plans, and temporary adapters turning into truth sources. The fix is not "communicate more." For every change, the team must answer: which pyramid layer changes, what fact changes there, and what evidence proves the change is complete.
+
+6. **Evidence must move with product focus.**
+
+   A green legacy test suite can prove yesterday's mainline while today's release path remains unproven. Tests, logs, status commands, release evidence, provider checks, and production facts must follow the current product promise and Flow. Otherwise CICD can be green while the real product is unsafe to release.
