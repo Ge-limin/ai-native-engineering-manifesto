@@ -51,7 +51,7 @@
 
 10. AI 生成的 Artifact 是一种新的模态。
 
-11. AI IDE或AI Agent 卖的是Context选择的能力。（详见[*工具与 Context 选择：为什么 AI IDE 卖的是"上下文选择能力"*](chapters-zh/04-tools-and-context-selection-zh.md)）
+11. AI IDE 或 AI Agent 卖的是 Context 选择的能力。（详见[*工具与 Context 选择：为什么 AI IDE 卖的是"上下文选择能力"*](chapters-zh/04-tools-and-context-selection-zh.md)）
 
 ---
 
@@ -91,7 +91,7 @@
     1. 全量/快照式的文档优于增量式的文档
     2. AI IDE的能力上限就是它的context window的上限，其实人类也是，人类的context window也是有上限的。那么人类是如何handle复杂系统的呢？回想一下大厂是如何协作的就能明白。我们与AI的协作，应该模拟大厂间不同职能、不同团队的协作。
 7. Vibe Coding只描绘了一个非常初级的coding阶段，终局应该是user story驱动的开发。现在许多用户将Cursor作为一个简单地辅助完成需求的工具，其实这之后还有好几个等级。反应到思维上，初级阶段程序员还是人的思维，中级阶段里程序员是机器的思维，高级阶段里要更进一步地升级为机器的管理者的思维。等级如下：
-    1. 不熟练的AI Coding使用者，使用中文，漫无目的，想到什么做什么，Vibe Coding
+    1. 不熟练的AI Coding使用者，使用中文，**漫无目的，想到什么做什么**，Vibe Coding
     2. 熟练的AI Coding使用者，意识到要用英文，意识到context window有限，意识到cursor并不会读你的文件的全文
     3. 将自己的流程固化下来的使用者，快速应用cursor rules，
     4. Issue Tracker，应用MCP，以一个issue或一个需求为中心，模拟一个团队的完整的协作流程
@@ -137,32 +137,20 @@
 <a id="may-2026-cn"></a>
 ## May 2026 修订
 
-1. **SSOT 是软件工程的根原则。**
-
-   2026 年 5 月的 SSOT 两篇文章认为，DRY、KISS、SOLID、领域建模、测试、可观测性、CICD、文档治理继续向下归并，最后都在谈同一件事：每个重要事实都必须有一个权威位置、一个 owner，以及一条 evidence 路径。复杂软件真正缺的不是更多内容，而是“哪个内容算数”。
+1. SSOT 是软件工程的根原则。2026 年 5 月写的两篇 SSOT 文章里，我把 DRY、KISS、SOLID、领域建模、测试、可观测性、CICD、文档治理一路往下归并，发现它们最后都在谈同一件事：每个重要事实都得有一个权威位置、一个 owner，外加一条 evidence 路径。复杂软件缺的从来不是更多内容，而是“哪个内容算数”。
 
    - 完整文章：[*SSOT：为什么所有软件工程原则最终都在谈同一件事*](https://liminge.space/cn/blog/ssot-nine-layer-pyramid)
    - 宣言章节：[*SSOT 是软件工程的根原则*](chapters-zh/14-ssot-as-the-root-principle-zh.md)
 
-2. **AI-Native 团队会比传统团队更快发生事实分裂。**
+2. AI-Native 团队比传统团队更快发生事实分裂。AI agent 会高频产出架构说明、代码、测试、日志、会议总结、发布说明、营销文案、任务报告。没有 SSOT，这些 artifact 很快就变成一堆彼此打架的历史快照。AI agent 会继续保护 legacy 路径，把 POC 包装成承诺，或者把几个历史阶段的“当前优先级”揉成一个看着合理、实际错误的计划。
 
-   AI agent 会高频生成架构说明、代码、测试、日志、会议总结、发布说明、营销文案和任务报告。没有 SSOT，这些 artifact 很快会变成彼此矛盾的历史快照。AI agent 可能继续保护 legacy 路径，把 POC 过度包装成承诺，或者把多个历史阶段的“当前优先级”综合成一个看似合理但错误的计划。
+3. SSOT 不只是研发内部的文档习惯。产品、运营、销售、客服/支持、发布 operator、AI agent，跟研发用的是同一套事实模型。产品要看当前战略，运营要看真实 workflow，销售要看承诺边界，客服/支持要看日志、evidence 和修复路径，研发则要判断一次代码改动会不会动到 contract、边界、领域模型、Flow、承诺或战略。
 
-3. **SSOT 不是研发内部的文档习惯。**
-
-   产品、运营、销售、客服/支持、发布 operator、AI agent 和研发都需要同一套事实模型。产品需要当前战略，运营需要真实 workflow，销售需要承诺边界，客服/支持需要日志、evidence 和修复路径，研发需要判断代码变化是否影响 contract、边界、领域模型、Flow、承诺或战略。
-
-4. **SSOT 九层金字塔模型是让事实保持最新的结构。**
-
-   金字塔强制自顶向下阅读：使命、战略、承诺、Flow、领域模型、系统边界、contract、实现、evidence。它也强制自底向上更新：先实现和 evidence，再在语义确实变化时提升到 contract、边界、领域、Flow、承诺、战略和使命。
+4. SSOT 九层金字塔模型是让事实保持最新的那套结构。金字塔强制自顶向下读：使命、战略、承诺、Flow、领域模型、系统边界、contract、实现、evidence。它也强制自底向上更新：先动实现和 evidence，等语义真的变了，再往上提升到 contract、边界、领域、Flow、承诺、战略和使命。
 
    - 完整文章：[*如何构造 SSOT 九层金字塔模型：一套可复用的 SSOT 原则*](https://liminge.space/cn/blog/nine-layer-pyramid-principles)
    - 宣言章节：[*SSOT 九层金字塔模型*](chapters-zh/15-ssot-nine-layer-pyramid-model-zh.md)
 
-5. **每一个具体故障都必须映射回九层模型。**
+5. 每一个具体故障都得映射回九层模型。文章里举的例子：旧 README 误导 AI agent，POC 被写进 BP，`skill` 升级成 `workflow` 但命名没改，内部 API 悄悄变成 contract，测试入口膨胀，日志和错误文案停留在旧概念，迁移计划完成后仍留在 current-work，临时 adapter / fallback 变成了事实来源。解决办法不是“多沟通”，而是每次都回答三个问题：该更新哪一层，那一层里哪类事实变了，有什么 evidence 能证明变更已经完成。
 
-   文章里的具体例子包括：旧 README 误导 AI agent、POC 被写进 BP、`skill` 升级为 `workflow` 但命名没变、内部 API 悄悄变成 contract、测试入口膨胀、日志和错误文案停留在旧概念、迁移计划完成后仍留在 current-work、临时 adapter / fallback 变成事实来源。解决方式不是“多沟通”，而是每次都回答：应该更新哪一层、那一层里的哪类事实变化了、有什么 evidence 证明变化完成。
-
-6. **Evidence 必须跟随产品重心迁移。**
-
-   绿色的 legacy 测试可能只证明昨天的主线，而今天真正要发布的路径完全没有被证明。测试、日志、状态命令、release evidence、provider 检查和线上事实，都必须跟随当前产品承诺和 Flow 迁移。否则 CICD 可以是绿的，但真实产品并不安全。
+6. Evidence 得跟着产品重心一起迁移。一片绿的 legacy 测试，可能只证明了昨天的主线，今天真正要发布的那条路径却根本没被证明过。测试、日志、状态命令、release evidence、provider 检查、线上事实，都要跟着当前的产品承诺和 Flow 走。不然 CICD 一片绿，真实产品照样不安全。
