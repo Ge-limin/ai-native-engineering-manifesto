@@ -2,9 +2,9 @@
 
 > "Very new technology stacks are hard for AI to master, because training data is too limited... The word 'compatibility' gains a new meaning in this context."
 
-> Extended reading: How small teams can leverage AI-compatible stacks more effectively, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how conventions work with tech stack choices, see [*Conventions and Development Standards—Let AI Dance in Chains*](./11-conventions-and-standards.md).
+> Extended reading: How small teams can leverage AI-compatible stacks more effectively, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how conventions work with tech stack choices, see [*Conventions and Development Standards: Let AI Dance in Chains*](./11-conventions-and-standards.md).
 
-### 1. "AI Compatibility" Is a New Kind of Compatibility
+### 1. "AI compatibility" is a new kind of compatibility
 
 Traditionally, when we talk about "compatibility," we mean:
 
@@ -14,8 +14,8 @@ Traditionally, when we talk about "compatibility," we mean:
 
 In the AI-native era, there's another layer:
 
-- **Is the technology stack friendly to AI?**
-- **Does AI have enough training data and practical samples on this stack?**
+- Is the technology stack friendly to AI?
+- Does AI have enough training data and practical samples on this stack?
 
 > "Very new technology stacks are hard for AI to master, because training data is too limited, for example Deno;  
 >  But if it's mature like Next.js, AI can quickly produce correct code."
@@ -25,7 +25,7 @@ This means:
 - Technology selection is no longer just a game of "performance, ecosystem, stability"
 - You also need to consider: "How much work can AI help with on this stack?"
 
-### 2. Choosing Mature Stacks Is to Let AI Do More
+### 2. Choosing mature stacks is to let AI do more
 
 If you choose a very new stack with a still-thin ecosystem:
 
@@ -35,7 +35,7 @@ If you choose a very new stack with a still-thin ecosystem:
 
 Conversely, if you choose a stack that's been validated by massive projects:
 
-- Various typical usages, best practices, anti-patterns—AI has "seen many times"
+- Various typical usages, best practices, anti-patterns, AI has "seen many times"
 - When you ask it to write code, write tests, refactor, success rate will be much higher
 - You can put more energy into business and workflow design, rather than struggling with the stack itself
 
@@ -45,7 +45,7 @@ This is the practical meaning of "AI compatibility":
 - But when your team has limited people and strongly depends on AI productivity,  
   **choosing a stack AI is very familiar with is often more cost-effective.**
 
-### 3. Practical Decision Recommendations
+### 3. Practical decision recommendations
 
 In a two-person small team, strongly dependent on AI, you can use a relatively simple set of decision principles:
 

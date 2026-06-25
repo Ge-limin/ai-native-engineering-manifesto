@@ -1,28 +1,28 @@
-## Chapter 11: Conventions and Development Standards—Let AI Dance in Chains
+## Chapter 11: Conventions and Development Standards: Let AI Dance in Chains
 
 > "The importance of Convention and development standards for AI-Native teams will only be higher, because they are the best tools to slow entropy increase. At the start of a project, we should design as many constraints and conventions as possible. Let AI 'dance in chains.'"
 
-> Extended reading: Why conventions are especially critical for small teams, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how conventions integrate with AI-native workflows, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+> Extended reading: Why conventions are especially critical for small teams, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md). For how conventions integrate with AI-native workflows, see [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md).
 
-### 1. Why Conventions Are More Important in the AI-Native Era
+### 1. Why conventions are more important in the AI-Native era
 
 In traditional software engineering, conventions and development standards are already important, but in the AI-Native context, their importance will further increase.
 
 The reasons are:
 
-- **AI writes code too fast**  
+- AI writes code too fast  
   If there are no constraints, AI will produce a lot of inconsistent style, non-unified structure code in a very short time.  
   Human brains can't review it all, let alone maintain it long-term.
 
-- **AI itself is 'stateless'**  
+- AI itself is 'stateless'  
   Every new AI session is a "new team member," it won't automatically remember the conventions you set last time.  
   Only by explicitly writing these conventions **into the codebase, into prompts, into test frameworks** can AI continuously follow them.
 
-- **Entropy increase speed is amplified**  
+- Entropy increase speed is amplified  
   The faster code volume grows, if there are no strong constraints, the speed of system chaos increase will also be faster.  
   Conventions are the most direct and effective means to slow entropy increase.
 
-### 2. Design as Many Constraints as Possible at Project Start
+### 2. Design as many constraints as possible at project start
 
 A common misconception is:
 
@@ -55,7 +55,7 @@ These constraints include:
    - When to write documentation, what documentation should contain, when to delete documentation
    - Avoid AI generating a lot of procedural, historical documentation garbage
 
-### 3. How Conventions "Slow Entropy Increase"
+### 3. How conventions "slow entropy increase"
 
 The essence of entropy increase is: **systems spontaneously become more chaotic and disordered.**
 
@@ -79,11 +79,11 @@ Conventions slow entropy increase through the following ways:
 3. **Make Review Simpler**  
    If all code follows the same set of conventions, human reviewers only need to focus on "whether the logic is correct," without spending a lot of time correcting style issues.
 
-### 4. Practical Implementation Recommendations
+### 4. Practical implementation recommendations
 
 In a two-person small team, strongly dependent on AI, you can implement conventions like this:
 
-1. **At the very start of the project, spend 1–5 days setting basic conventions**  
+1. **At the very start of the project, spend 1 to 5 days setting basic conventions**  
    - Code style (ESLint/Prettier configuration)
    - Testing framework and test organization methods
    - Documentation scope and format
@@ -94,7 +94,7 @@ In a two-person small team, strongly dependent on AI, you can implement conventi
 
 3. **Enforce with testing and lint tools**  
    - Code that doesn't meet conventions directly fails CI
-   - Don't expect "manual review to correct"—human brains can't review it all
+   - Don't expect "manual review to correct," because human brains can't review it all
 
 4. **Regularly Review and Update Conventions**  
    - If you find a convention is "always violated" in actual use, the convention itself might be problematic and needs adjustment
@@ -104,7 +104,7 @@ In a two-person small team, strongly dependent on AI, you can implement conventi
 
 In the AI-Native era, conventions and development standards are no longer "nice to have," but "must have."
 
-> **Let AI dance in chains—these chains are your conventions.**  
+> **Let AI dance in chains: these chains are your conventions.**  
 > Without chains, AI will dance very fast, but also very chaotically, and eventually the entire system will be out of control.  
 > With chains, AI, although it can't "freely play," can continuously produce controllable, maintainable code.
 

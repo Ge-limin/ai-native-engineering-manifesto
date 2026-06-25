@@ -2,14 +2,11 @@
 
 > "AI cannot solve all problems. AI cannot solve the first mile and the last mile. This is essentially a human problem."
 
-> Extended reading: How debugging workflows demonstrate human-AI collaboration boundaries, see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md). For how test systems provide safety nets that enable human delegation, see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md).
+> Extended reading: How debugging workflows demonstrate human-AI collaboration boundaries, see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md). For how test systems provide safety nets that enable human delegation, see [*Test/Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md).
 
-### 1. First Mile and Last Mile: The Two Ends AI Cannot Do
+### 1. First mile and last mile: the two ends AI cannot do
 
-In the AI-native world, there are two things AI cannot do, or cannot do well, or shouldn't do:
-
-- **First Mile**: Designing a truly reasonable solution
-- **Last Mile**: Getting every line of code correct in a real environment
+In the AI-native world, there are two things AI cannot do, or cannot do well, or shouldn't do. The **First Mile** is designing a truly reasonable solution. The **Last Mile** is getting every line of code correct in a real environment.
 
 > "The relationship between humans and AI is that of reviewer and executor, but humans cannot evaluate things they themselves don't understand."
 
@@ -18,7 +15,7 @@ The subtext of this statement is:
 - You cannot hand a system you don't even understand to AI for "automatic maintenance"
 - You must first have sufficient understanding of the system before you're qualified to evaluate whether AI is doing well
 
-### 2. Human-in-the-Loop Is an Unavoidable Engineering Cost
+### 2. Human-in-the-loop is an unavoidable engineering cost
 
 Many people hope that one day they can achieve "full automation":  
 PRD → AI automatically breaks down tasks → automatically writes code → automatically deploys → automatically maintains.
@@ -28,16 +25,15 @@ The conclusion from practice is:
 - Once this fantasy is introduced into real, complex, long-lived systems, it quickly collapses
 - The more you rely on AI automation, the fewer people seriously review, the faster debt accumulates
 
-The truly feasible and must-accept model is:
+The truly feasible and must-accept model is Human-in-the-loop present throughout:
 
-- **Human-in-the-loop is present throughout**:  
-  - In requirement clarification phase
-  - When making key architectural decisions
-  - After each round of major changes and critical path changes
-- AI can help you complete a lot of repetitive, physical, local work
-- But for "overall direction" and "key decisions," humans must explicitly sign off
+- In requirement clarification phase
+- When making key architectural decisions
+- After each round of major changes and critical path changes
 
-### 3. Onboarding: AI Cannot Train a Real Engineer
+AI can help you complete a lot of repetitive, physical, local work, but for "overall direction" and "key decisions," humans must explicitly sign off.
+
+### 3. Onboarding: AI cannot train a real engineer
 
 In an AI-native team, newcomers easily fall into two extremes:
 
@@ -61,12 +57,12 @@ A relatively healthy onboarding approach is:
 
 > "Although humans don't need to write code, you must know which part it's changing... cannot accept results of 'accidentally fixing it correctly.'"
 
-### 4. Using Debug and Tests to Train Newcomers' Judgment
+### 4. Using debug and tests to train newcomers' judgment
 
 For training newcomers, the best training scenarios aren't "have them write features," but:
 
 - Take them through debugging a real deep bug together (see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md))
-- Take them through adding a test for a critical path together (see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md))
+- Take them through adding a test for a critical path together (see [*Test/Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md))
 
 In these scenarios, newcomers must learn:
 
@@ -81,7 +77,7 @@ This entire process essentially trains newcomers to:
 - Build intuition about AI's limitations
 - Have judgment about the boundary of "when to trust AI, when to definitely look yourself"
 
-### 5. Team-Level Human-in-the-Loop Design
+### 5. Team-level human-in-the-loop design
 
 From a team perspective, Human-in-the-loop isn't just a "philosophical attitude," but should be designed as an explicit mechanism:
 

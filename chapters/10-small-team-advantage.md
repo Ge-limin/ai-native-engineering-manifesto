@@ -2,9 +2,9 @@
 
 > "The era when small teams can win... We have no burden, we can completely revolutionize productivity in all our links as much as possible."
 
-> Extended reading: How conventions help small teams maintain stability, see [*Conventions and Development Standards—Let AI Dance in Chains*](./11-conventions-and-standards.md). For the complete knowledge workflow pipeline that small teams can implement, see [*Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow*](./13-knowledge-workflow-pipeline.md).
+> Extended reading: How conventions help small teams maintain stability, see [*Conventions and Development Standards: Let AI Dance in Chains*](./11-conventions-and-standards.md). For the complete knowledge workflow pipeline that small teams can implement, see [*Meeting Recording→PRD→TDD→Code: AI-Native Team's Knowledge Workflow*](./13-knowledge-workflow-pipeline.md).
 
-### 1. Large Companies vs. Small Teams: Who's More AI-Native
+### 1. Large companies vs. small teams: who's more AI-Native
 
 On the surface, large companies have more money, more people, more infrastructure,  
 seemingly better positioned to do AI transformation.
@@ -18,7 +18,7 @@ But in reality, AI-Native actually favors small teams:
 > "In a large company, out of 100 links, it can innovate in at most 10 links.  
 >  We small teams are different. We have no burden, we can completely revolutionize productivity in all our links as much as possible."
 
-### 2. AI-izing 100 Links: Multiplication Effect Far Exceeds Addition
+### 2. AI-izing 100 links: multiplication effect far exceeds addition
 
 Roughly breaking down a complete software engineering process, you can easily list dozens to hundreds of links:
 
@@ -30,19 +30,19 @@ Roughly breaking down a complete software engineering process, you can easily li
 
 In traditional transformation thinking:
 
-- Large companies might pick 5–10 links to do AI acceleration
+- Large companies might pick 5-10 links to do AI acceleration
 - Each link improves efficiency a bit, overall effect is "addition"
 
 Small teams can do something large companies find very hard:
 
-- **From the start, assume: 100 links can all be AI-ized**
+- From the start, assume: 100 links can all be AI-ized
 - Don't presuppose "this link must be done by humans, that link can't be given to AI"
 - Use a unified AI-Native design approach to string all links together
 
 When 100 links have all been redesigned,  
 the overall improvement is no longer addition, but more like "multiple rounds of compound multiplication effects."
 
-### 3. Fewer People = Need AI More, But Also More Opportunity to Use AI to the Fullest
+### 3. Fewer people = need AI more, but also more opportunity to use AI to the fullest
 
 A direct consequence of AI is: **each person's productivity increases, but team size actually decreases.**  
 This is actually good for small teams:
@@ -57,7 +57,7 @@ At the same time, because there are fewer people:
 - You're more motivated to use AI to the fullest in every link
 - Including what you're doing in this manifesto: have AI help organize workflows, help organize chapters, help solidify methodologies
 
-### 4. Heavier Constraints, More Stable Small Teams Run
+### 4. Heavier constraints, more stable small teams run
 
 In AI-Native teams, there's another important view:
 
@@ -72,7 +72,7 @@ This statement especially holds for small teams:
 Large companies wanting to forcibly add such constraints to existing systems has very high cost;  
 Small teams can do this almost "at zero cost" from the start.
 
-### 5. Summary: AI-Native Is a Window of Opportunity for Small Teams
+### 5. Summary: AI-Native is a window of opportunity for small teams
 
 In summary, AI-Native doesn't bring a "stronger get stronger" Matthew effect, but gives small teams a new window of opportunity:
 

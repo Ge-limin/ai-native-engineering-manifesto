@@ -8,7 +8,7 @@ SSOT fails when it remains a slogan. A team needs a structure that tells every h
 
 The SSOT Nine-Layer Pyramid is one such structure.
 
-### 1. The Root Goal
+### 1. The root goal
 
 The pyramid is not a folder template. It is an up-to-date snapshot of business, product, and engineering truth.
 
@@ -24,7 +24,7 @@ It answers:
 - How is the system implemented?
 - What evidence proves it?
 
-### 2. The Nine Layers
+### 2. The nine layers
 
 | Layer | Question | Example SSOT |
 | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ It answers:
 | L8 Implementation | How is the system realized? | Code, scripts, migrations, config, automation |
 | L9 Evidence | What proves the previous layers? | Tests, logs, status checks, release evidence, production facts |
 
-### 3. Read Top-Down
+### 3. Read top-down
 
 When understanding a problem, do not start from nearby code.
 
@@ -58,7 +58,7 @@ This prevents one local artifact from redefining the whole product.
 
 A page that still exists is not necessarily current strategy. An API that still exists is not necessarily a public promise. A test that still runs is not necessarily protecting the current mainline.
 
-### 4. Update Bottom-Up
+### 4. Update bottom-up
 
 When changing the system, update from the bottom:
 
@@ -88,7 +88,7 @@ flowchart BT
   L8 --> L9 --> L7 --> L6 --> L5 --> L4 --> L3 --> L2 --> L1
 ```
 
-### 5. Flow Is the Cross-Functional Layer
+### 5. Flow is the cross-functional layer
 
 Flow is not only UI navigation.
 
@@ -109,7 +109,7 @@ If the Flow layer does not define how agents work, agents will guess.
 
 For non-engineering teammates, Flow is equally important. Product, operations, sales, and customer support usually reason from scenarios, handoffs, failure paths, and evidence instead of component calls. Flow gives them one shared map.
 
-### 6. Every Specialized Document Needs Ownership
+### 6. Every specialized document needs ownership
 
 Architecture, operations, working plans, testing, UI, security, and customer support documents can keep their own structures.
 
@@ -122,7 +122,7 @@ But every specialized document must declare:
 
 Specialized documents are useful. Unowned specialized documents become competing truth systems.
 
-### 7. Evidence Is Not Documentation
+### 7. Evidence is not documentation
 
 Documentation can describe a fact. It does not prove the fact.
 
@@ -139,7 +139,7 @@ Evidence includes:
 
 If a public promise has no evidence, it is not a promise.
 
-### 8. Current Work Must Not Become Permanent Memory
+### 8. Current work must not become permanent memory
 
 Temporary investigations and plans belong in current work.
 
@@ -154,7 +154,7 @@ When the work is complete, only the stable conclusion moves into the relevant la
 
 This keeps long-term memory greenfield and current-state focused.
 
-### 9. Minimal Adoption Checklist
+### 9. Minimal adoption checklist
 
 1. Create nine layer entries.
 2. Create one current-work SSOT.

@@ -24,7 +24,7 @@ Every artifact may have been true when it was created. Over time, product strate
 
 This is why SSOT is not merely a documentation habit. It is the root principle behind software engineering.
 
-### 1. Why Other Principles Collapse Into SSOT
+### 1. Why other principles collapse into SSOT
 
 Most familiar engineering principles can be reinterpreted as SSOT disciplines:
 
@@ -43,7 +43,7 @@ The surface differs, but the underlying question is the same:
 
 If the team cannot answer that question, every other engineering principle eventually decays into style preference.
 
-### 2. Human Memory Cannot Carry Complex Systems
+### 2. Human memory cannot carry complex systems
 
 Small teams often begin with shared memory. Everyone knows which feature is core, which script is temporary, which test is obsolete, and which document is old.
 
@@ -61,7 +61,7 @@ For non-engineering teammates, SSOT is the collaboration entry point. Product ne
 
 SSOT is therefore not internal engineering hygiene. It is the shared truth system for AI agents, product, operations, sales, customer support, release operators, and engineering.
 
-### 3. "Current Priority" Is the Most Dangerous Phrase
+### 3. "Current priority" is the most dangerous phrase
 
 The easiest way to create split-brain is to let many documents describe the current priority.
 
@@ -80,7 +80,7 @@ The rule should be strict:
 
 Every copied "current" statement is a future bug.
 
-### 4. Product Decisions Do Not Propagate Automatically
+### 4. Product decisions do not propagate automatically
 
 A team may decide that the product core is changing. The decision itself does not update the codebase.
 
@@ -106,7 +106,7 @@ The explicit shift from A to B is not the hardest case. The harder case is gradu
 
 Without SSOT, different team assets live at different stages of that transition.
 
-### 5. Testing Is an SSOT Case Study
+### 5. Testing is an SSOT case study
 
 The original version of this manifesto emphasized that the test case library is the only reliable, compounding engineering asset.
 
@@ -124,7 +124,7 @@ The mature question is:
 
 Tests, logs, status commands, release evidence, and production checks are evidence. Evidence must move when product focus moves.
 
-### 6. The AI-Native Version of SSOT
+### 6. The AI-native version of SSOT
 
 AI is stateless. Every session re-enters the system through context.
 

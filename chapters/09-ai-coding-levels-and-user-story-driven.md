@@ -2,9 +2,9 @@
 
 > "Vibe Coding only describes a very primitive stage. The endgame should be user-story-driven development."
 
-> Extended reading: How user stories enable horizontal complexity transformation, see [*From Vertical to Horizontal Complexity*](./06-horizontal-complexity.md). For the complete knowledge workflow that connects user stories to code, see [*Meeting Recording→PRD→TDD→Code—AI-Native Team's Knowledge Workflow*](./13-knowledge-workflow-pipeline.md).
+> Extended reading: How user stories enable horizontal complexity transformation, see [*From Vertical to Horizontal Complexity*](./06-horizontal-complexity.md). For the complete knowledge workflow that connects user stories to code, see [*Meeting Recording→PRD→TDD→Code: AI-Native Team's Knowledge Workflow*](./13-knowledge-workflow-pipeline.md).
 
-### 1. From Vibe Coding to Machine Manager
+### 1. From Vibe Coding to machine manager
 
 Today, many people using AI IDEs (like Cursor) stay at a very primitive stage:
 
@@ -21,7 +21,7 @@ But if you extend the timeline, you'll find AI coding users actually have a very
 >  At the intermediate level, the programmer starts thinking like a machine.  
 >  At the advanced level, the programmer becomes a *manager of machines*."
 
-### 2. Five Levels of AI Coding Users
+### 2. Five levels of AI coding users
 
 A relatively clear classification can be:
 
@@ -49,18 +49,9 @@ A relatively clear classification can be:
      - AI can work asynchronously and in parallel
      - Can have 100 user stories in different stages progressing in parallel simultaneously
 
-### 3. Why the Endgame Must Be User Story Driven
+### 3. Why the endgame must be User Story Driven
 
-From an engineering perspective, User Story Driven has several natural advantages:
-
-- **Natural Segmentation Unit**:  
-  A user story comes with context, expected behavior, and acceptance criteria, making it very suitable as an AI work unit.
-
-- **Natural Test Carrier**:  
-  In ideal state, one user story = one set of end-to-end tests, which has been explicitly proposed in the `story-ops` exploration.
-
-- **Naturally Suited for Horizontal Complexity**:  
-  Each story is a relatively independent shallow chain, which fits well with the idea of "complexity from vertical to horizontal" (see *From Vertical to Horizontal Complexity* for details).
+From an engineering perspective, User Story Driven has several natural advantages. A user story is a natural segmentation unit: it comes with context, expected behavior, and acceptance criteria, making it very suitable as an AI work unit. It is also a natural test carrier: in ideal state, one user story = one set of end-to-end tests, which has been explicitly proposed in the `story-ops` exploration. And it is naturally suited for horizontal complexity: each story is a relatively independent shallow chain, which fits well with the idea of "complexity from vertical to horizontal" (see *From Vertical to Horizontal Complexity* for details).
 
 When teams truly reach the User Story Driven stage:
 
@@ -68,7 +59,7 @@ When teams truly reach the User Story Driven stage:
 - AI doesn't directly operate on "code," but operates on "the complete lifecycle of a story"
 - Code, documentation, and tests all become derivatives of stories
 
-### 4. How to Level Up from Where You Are Today
+### 4. How to level up from where you are today
 
 In reality, you don't need to rush to level 5 from the start. You can first ask yourself a question:
 

@@ -4,7 +4,7 @@
 
 > Extended reading: How context window limits create the need for token-based measurement, see [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md). For how token scale affects tool selection, see [*Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"*](./04-tools-and-context-selection.md).
 
-### 1. Why Use Token to Measure Project Scale
+### 1. Why use Token to measure project scale
 
 In traditional software engineering, we usually measure project scale by:
 
@@ -15,12 +15,9 @@ In traditional software engineering, we usually measure project scale by:
 
 But in the AI-Native era, these metrics all have limitations:
 
-- **Lines of code**: AI-generated code might be very "verbose"—more lines don't mean higher complexity
-- **Number of files**: AI tends to generate many small files—file count doesn't reflect real information density
-- **Number of functional modules**: Module boundaries become more blurred in the AI era—count doesn't mean much
-- **Team size**: AI dramatically increases individual productivity—the relationship between people and project scale is broken
+On lines of code, AI-generated code might be very "verbose," so more lines don't mean higher complexity. On number of files, AI tends to generate many small files, so file count doesn't reflect real information density. On number of functional modules, module boundaries become more blurred in the AI era, so count doesn't mean much. On team size, AI dramatically increases individual productivity, so the relationship between people and project scale is broken.
 
-**Token, as a new quantitative metric, has unique advantages:**
+Token, as a new quantitative metric, has unique advantages:
 
 1. **Directly Reflects AI's 'Understanding Cost'**  
    How many tokens a project needs for AI to fully understand directly determines:
@@ -41,34 +38,33 @@ But in the AI-Native era, these metrics all have limitations:
    - Whether the team can continuously use AI
    - Which tools/models are suitable for the current project scale
 
-### 2. The 1M Token and 10M Token Boundaries
+### 2. The 1M Token and 10M Token boundaries
 
 Based on practical experience, there are two key numerical boundaries:
 
-- **1M Token**: All content produced by a very small AI-Native team in 15–30 days is roughly at this scale
-- **10M Token**: Within this scale, AI-Native solutions can bring at least **3× productivity improvement**
+1M Token is roughly the scale of all content produced by a very small AI-Native team in 15 to 30 days. 10M Token is the scale within which AI-Native solutions can bring at least **3× productivity improvement**.
 
-**What 1M Token Means:**
+What 1M Token Means:
 
 - A medium-sized codebase (tens of thousands to over a hundred thousand lines of code)
 - Plus necessary documentation and tests
 - Can be fully loaded in a "large context model" (like Gemini's 1 million token)
 - AI can understand the entire project's full picture in one session
 
-**What 10M Token Means:**
+What 10M Token Means:
 
 - A large project, or a collection of multiple related projects
 - Already cannot be fully loaded in one session
 - Must rely on context selection strategies, letting AI only focus on "relevant parts"
 - But within this scale, as long as context selection is done well, AI can still bring significant productivity improvements
 
-**After Exceeding 10M Token:**
+After Exceeding 10M Token:
 
 - Context selection complexity will rise sharply
 - AI accuracy will noticeably decline (because it can always only see "partial context")
-- May need to consider "project splitting" or "architecture refactoring," splitting large projects into multiple 1–10M token sub-projects
+- May need to consider "project splitting" or "architecture refactoring," splitting large projects into multiple 1M to 10M token sub-projects
 
-### 3. How to Measure a Project's Token Scale
+### 3. How to measure a project's Token scale
 
 A rough estimation method is:
 
@@ -89,33 +85,33 @@ A rough estimation method is:
    - Configuration files, SQL schemas, API documentation, etc.
    - If the project has "meeting recordings converted to text" or "design drafts converted to text," these should also be included
 
-**Practical Measurement Recommendations:**
+Practical Measurement Recommendations:
 
 - Can use scripts to regularly scan the entire codebase and calculate total token count
 - Focus on token count's **growth trend**, not absolute numbers
 - If you find token count growing too fast, think: Are documents/tests written too much? Is code duplication too high?
 
-### 4. Impact of Token Scale on Engineering Practice
+### 4. Impact of Token scale on engineering practice
 
-**Within 1M Token:**
+Within 1M Token:
 
 - Can relatively "luxuriously" use AI
 - Can have AI read the entire codebase, do global refactoring and optimization
 - Documentation can be slightly "redundant," because context space is still sufficient
 
-**Between 1–10M Token:**
+Between 1M and 10M Token:
 
 - Must start paying attention to context selection
 - Documentation must be more concise, only keep "snapshot-style" high-level documentation
 - Code must be more modular, so AI can work by "only looking at relevant modules"
 
-**Exceeding 10M Token:**
+Exceeding 10M Token:
 
 - Context selection becomes the core bottleneck
 - May need to introduce "project indexing," "symbol indexing," and other more complex mechanisms
 - Or consider "splitting projects," splitting large projects into multiple independent small projects
 
-### 5. Practical Decision Recommendations
+### 5. Practical decision recommendations
 
 In a two-person small team, strongly dependent on AI, you can use the token metric like this:
 
@@ -125,7 +121,7 @@ In a two-person small team, strongly dependent on AI, you can use the token metr
 
 2. **Adjust Strategy Based on Token Scale**  
    - Within 1M: Can be "extensive," let AI read more context
-   - 1–10M: Start paying attention to context selection, simplify documentation
+   - 1M to 10M: Start paying attention to context selection, simplify documentation
    - Exceeding 10M: Consider project splitting or architecture refactoring
 
 3. **Use Token Scale to Evaluate Tool/Model Selection**  

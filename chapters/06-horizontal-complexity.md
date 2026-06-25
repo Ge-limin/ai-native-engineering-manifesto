@@ -4,7 +4,7 @@
 
 > Extended reading: How user stories serve as natural segmentation units for horizontal complexity, see [*Five Levels of AI Coding and the User Story Driven Endgame*](./09-ai-coding-levels-and-user-story-driven.md). For small team advantages in implementing this transformation, see [*The Structural Advantages of AI-Native Small Teams*](./10-small-team-advantage.md).
 
-### 1. What Are "Vertical Complexity" and "Horizontal Complexity"
+### 1. What are "vertical complexity" and "horizontal complexity"
 
 Traditional software systems like to grow "vertically":  
 - One main line is very deep, going through many layers of abstraction, many layers of calls, many implicit states
@@ -20,23 +20,23 @@ Conversely, if we "flatten" complexity and make the system:
 
 This is the so-called complexity transformation "from vertical to horizontal."
 
-### 2. Why Horizontal Complexity Is More Suitable for AI-Native Systems
+### 2. Why horizontal complexity is more suitable for AI-native systems
 
 AI's context window is limited, which is already covered in [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md). Looking at complexity in combination with this:
 
-- **Single chain with very deep depth**:  
+- Single chain with very deep depth:  
   - Context spans too many modules, files, historical decisions
   - AI has difficulty "fitting in" all the causes and effects in one session
   - When debugging, it's easy to have situations where "I see the local part but can't understand the whole"
 
-- **Multiple similar but independent shallow chains**:  
+- Multiple similar but independent shallow chains:  
   - Each chain requires shorter context
   - AI can more easily complete understanding, modification, and verification within one session
   - Comparing two similar but mutually independent chains is something AI is particularly good at
 
 > "A very deep chain is very hard for AI to debug, but AI can handle two very similar chains, as long as these two chains are mutually independent."
 
-### 3. shad-expo-studio: An Attempt to Reduce Vertical Complexity
+### 3. shad-expo-studio: an attempt to reduce vertical complexity
 
 `https://github.com/ge-limin/shad-expo-studio` is a concrete attempt to reduce vertical complexity:
 
@@ -52,9 +52,9 @@ For AI:
 
 - Presentation layer changes can be locally understood and tested in Storybook scenarios
 - Functional layer changes can be locally understood and tested in test code
-- Avoids having to "understand the entire page from UI to business to backend" in one session—a deep chain
+- Avoids having to "understand the entire page from UI to business to backend" in one session, a deep chain
 
-### 4. story-ops: Compressing Complexity to "User Stories"
+### 4. story-ops: compressing complexity to "user stories"
 
 `https://github.com/ge-limin/story-ops` is another further exploration, with the goal:
 
@@ -71,7 +71,7 @@ From a complexity perspective, this is equivalent to:
 - Each story has its own input, output, and verification method
 - AI can complete understanding and modification within the scope of one story, without having to swallow the entire system at once
 
-### 5. What to Do Next
+### 5. What to do next
 
 If you want your system to evolve from vertical to horizontal, consider several practical paths:
 

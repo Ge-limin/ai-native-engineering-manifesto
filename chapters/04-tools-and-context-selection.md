@@ -1,12 +1,12 @@
-## Chapter 4: Tools and Context Selection—Why AI IDEs Sell "Context Selection Capability"
+## Chapter 4: Tools and Context Selection: Why AI IDEs Sell "Context Selection Capability"
 
 > "AI IDEs or AI Agents sell two things: Context selection capability, and best practice generalization capability."
 
 > Extended reading: The physical boundaries of context windows and their impact on engineering practice, see [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
-This chapter focuses on: characteristics of different AI coding tools, hidden constraints from business models, and why RAG, task managers, and multi-agent systems—things that "look smart"—are often anti-patterns in AI-native engineering practice.
+This chapter focuses on: characteristics of different AI coding tools, hidden constraints from business models, and why RAG, task managers, and multi-agent systems (things that "look smart") are often anti-patterns in AI-native engineering practice.
 
-### 1. Cursor's Business Model Problem: Wholesale to Retail
+### 1. Cursor's business model problem: wholesale to retail
 
 From a business perspective, Cursor's business model is "wholesale to retail":
 
@@ -22,7 +22,7 @@ Once context is compressed:
 
 The result is: **You think it read the entire file, but it actually only looked at a few paragraphs in the middle.**
 
-### 2. The Best Tools Often Come from Model Vendors
+### 2. The best tools often come from model vendors
 
 > Extended reading: How token scale affects tool selection decisions, see [*Token as a Quantitative Measure of Project Scale*](./12-token-as-project-scale.md).
 
@@ -32,10 +32,9 @@ Therefore, the best tools are actually those made by large model vendors themsel
 - What they really care about is "getting more data to train their models"
 - So they won't secretly drop information where you can't see it
 
-The cost is:  
-— Not all ordinary people can afford the bill. Randomly chatting can cost dozens or hundreds of dollars, and $20–200 has become the "average price."
+The cost is: not all ordinary people can afford the bill. Randomly chatting can cost dozens or hundreds of dollars, and $20 to $200 has become the "average price."
 
-### 3. Web Interface + Large Context: How to Use Gemini
+### 3. Web interface + large context: how to use Gemini
 
 Another approach is: directly use the model vendor's web interface.
 
@@ -51,9 +50,9 @@ But the biggest problem here isn't the tool, but:
 - You need the ability to confirm the scope and reasonableness of its changes
 - Otherwise, you're just changing the channel through which "hard-to-review code" floods in
 
-> When you're handling ultra-large context in the web interface, you still need to use the test system emphasized in [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md) as a safety net.
+> When you're handling ultra-large context in the web interface, you still need to use the test system emphasized in [*Test/Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md) as a safety net.
 
-### 4. RAG vs. AST: Why Symbol Indexing Is More Reliable Than "Smart Retrieval"
+### 4. RAG vs. AST: why symbol indexing is more reliable than "smart retrieval"
 
 Cursor uses RAG to find things.  
 From an engineering perspective, RAG technology has one major drawback: **accuracy is particularly low.**
@@ -76,7 +75,7 @@ The correct approach should be:
 
 > "Let the large model build the index itself, then let the large model call its own index."
 
-### 5. Multi-Task, Multi-Agent, Task Manager: Intuitive but Wrong Ideas
+### 5. Multi-task, multi-agent, task manager: intuitive but wrong ideas
 
 There are many AI-based "task manager" products on the market:
 
@@ -89,7 +88,7 @@ The starting point of this path is good. I myself walked this path for over half
 
 But I eventually eliminated all such processes, because:
 
-1. They create huge mental burden for humans: PRDs, Tech Docs, execution records—a pile of documents all need to stay in sync
+1. They create huge mental burden for humans: PRDs, Tech Docs, execution records, a pile of documents all need to stay in sync
 2. Once there's inconsistency, it means you're misleading AI, and it's easy for it to do wrong things
 3. AI itself has a small error on each task, like 1%. After multi-task parallelization, errors will amplify geometrically
 
@@ -97,7 +96,7 @@ But I eventually eliminated all such processes, because:
 
 Therefore, **rather than pursuing the 'coolness' of multi-agent, multi-pipeline systems, it's better to work serially and honestly.**
 
-### 6. Documentation and Code Consistency: Don't Let AI Eat Contradictory Information
+### 6. Documentation and code consistency: don't let AI eat contradictory information
 
 Around tools and context selection, there's another very critical point: **consistency between documentation and code.**
 
@@ -119,13 +118,11 @@ The correct approach is:
 
 > This is completely consistent with the principle of "delete all A, only keep B" in [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
-### 7. Tool Selection Strategy: Who Does What
+### 7. Tool selection strategy: who does what
 
 Combining all the above experience, a relatively simple tool selection strategy is:
 
-- **Codex / Cloud Code**: Backend and all functional logic code
-- **Cursor**: Component development, UI development, design restoration (utilizing IDE advantages)
-- **Gemini Web and other large-context tools**: Scenarios requiring 10^6 level token context
+Use Codex / Cloud Code for backend and all functional logic code. Use Cursor for component development, UI development, and design restoration (utilizing IDE advantages). Use Gemini Web and other large-context tools for scenarios requiring 10^6 level token context.
 
 Accompanying usage principles:
 
@@ -133,10 +130,10 @@ Accompanying usage principles:
 2. If using IDE-type tools, be very clear in your mind: it might be "secretly saving tokens" behind your back
 3. All tools are just "entry points." What's really important is:
    - Your context organization method
-   - Your test system (see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md))
-   - Whether your documentation and code are consistent (see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md))
+   - Your test system (see [*Test/Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md))
+   - Whether your documentation and code are consistent (see [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md))
 
-### 8. Context Selection Is the Core Capability of AI IDEs
+### 8. Context selection is the core capability of AI IDEs
 
 Returning to the opening statement:
 

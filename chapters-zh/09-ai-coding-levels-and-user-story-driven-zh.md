@@ -24,25 +24,25 @@
 
 一个比较清晰的分级可以是：
 
-1. **不熟练的 AI Coding 使用者**
-   - 使用中文，漫无目的，想到什么做什么  
+1. 不熟练的 AI Coding 使用者
+   - 使用中文，**漫无目的，想到什么做什么**  
    - 不意识到 context window 有限  
    - 不意识到 AI IDE 并没有读完你整个代码库
 
-2. **熟练的 AI Coding 使用者**
+2. 熟练的 AI Coding 使用者
    - 意识到要用英文  
    - 意识到 context window 有限  
    - 意识到 Cursor 并不会读你的文件全文，而是做片段检索  
 
-3. **将自己的流程固化下来的使用者**
+3. 将自己的流程固化下来的使用者
    - 有一套稳定的 prompt pattern 和工作流  
    - 能够快速应用自己的 Cursor 规则、命令行工具、模板  
 
-4. **Issue Tracker 级别的使用者**
+4. Issue Tracker 级别的使用者
    - 会用 MCP、Issue Tracker 等工具，将“一个 issue / 一个需求”当成协作的核心单元  
    - 能够围绕一个 issue，模拟一个完整团队的协作流程（需求 → 设计 → 开发 → 测试）  
 
-5. **User Story Driven 的 AI-Native 团队**
+5. User Story Driven 的 AI-Native 团队
    - 整个系统彻底转为 AI-Native：  
      - user story 是第一等公民  
      - AI 可以异步、多线程地工作  
@@ -50,16 +50,9 @@
 
 ### 3. 为什么终局一定是 User Story Driven
 
-从工程角度看，User Story Driven 有几个天然优势：
+从工程角度看，User Story Driven 有几个天然优势。
 
-- **天然的切分单位**：  
-  一个 user story 自带上下文、期望行为、验收标准，很适合作为 AI 的工作单元。
-
-- **天然的测试载体**：  
-  在理想状态下，一个 user story = 一组端到端测试，这在 `story-ops` 的探索里已经被明确提出。
-
-- **天然适合水平复杂度**：  
-  每个 story 都是一条相对独立的浅链路，可以很好地贴合"复杂度从垂直到水平"的思路（详见[*从垂直复杂度到水平复杂度*](./06-horizontal-complexity-zh.md)）。
+它是天然的切分单位：一个 user story 自带上下文、期望行为、验收标准，很适合作为 AI 的工作单元。它也是天然的测试载体：在理想状态下，一个 user story = 一组端到端测试，这在 `story-ops` 的探索里已经被明确提出。它还天然适合水平复杂度：每个 story 都是一条相对独立的浅链路，可以很好地贴合"复杂度从垂直到水平"的思路（详见[*从垂直复杂度到水平复杂度*](./06-horizontal-complexity-zh.md)）。
 
 当团队真正到达 User Story Driven 的阶段时：
 
