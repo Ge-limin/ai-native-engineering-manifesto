@@ -1,12 +1,12 @@
-## Chapter 3: Debugging—Finding Bugs with AI in Deep Waters
+## Chapter 3: Debugging: Finding Bugs with AI in Deep Waters
 
 > "Today's AI programming is programming in uncertainty, in chaos, in confusion."
 
-> Extended reading: How debug workflows embed into overall engineering loops, see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md) and [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+> Extended reading: How debug workflows embed into overall engineering loops, see [*Test/Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md) and [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md).
 
 This chapter uses a real case of a poker game animation queue to demonstrate how AI-native teams collaborate with AI in "deep waters" and where humans must step in personally.
 
-### 1. Case: The Deep Bug of Missing Poker Showdown Animation
+### 1. Case: the deep bug of missing poker showdown animation
 
 The bug's symptom was: if a hand reached the final street (river), specifically:
 
@@ -20,7 +20,7 @@ Finally, we found the frontend wasn't wrong. The problem was: **the data passed 
 
 This chain was very deep, because the codebase itself was already quite large. This directly brought us to a question: In the process of using AI to write code, how do we control software engineering quality? This is actually a core problem of AI programming.
 
-### 2. Step One: Don't Rush to Change Code, Let AI Build Context First
+### 2. Step one: don't rush to change code, let AI build context first
 
 If I were a new reader of the codebase, how would I solve it?
 
@@ -34,7 +34,7 @@ If you immediately tell it the issue, it might focus too much on the issue itsel
 
 > The pattern of "build context first, then act" here is consistent with the discussion about session relay in [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
-### 3. Step Two: Precisely Describe the Problem, Not Just "There's a Bug"
+### 3. Step two: precisely describe the problem, not just "there's a bug"
 
 After AI has some understanding of the context, that's the time to describe the problem phenomenon. For example:
 
@@ -43,7 +43,7 @@ After AI has some understanding of the context, that's the time to describe the 
 The key point here is:  
 **Describe the problem as much as possible using phenomena and scenarios, rather than immediately jumping to conclusions.**
 
-### 4. Step Three: Add Debug Logs First, Don't Let AI Change Code Immediately
+### 4. Step three: add debug logs first, don't let AI change code immediately
 
 For Codex or other AI, it has a natural tendency:  
 As soon as it hears "there's a bug," it immediately wants to change code.
@@ -61,7 +61,7 @@ So, the correct way to ask AI at this point isn't "help me fix it," but:
 - Have it add **debug logs** at key positions for you
 - Then use these logs to reverse-engineer where the problem is
 
-### 5. Step Four: Use Debug Logs to Correct AI's Thinking
+### 5. Step four: use debug logs to correct AI's thinking
 
 Why add debug logs?
 
@@ -76,12 +76,11 @@ If you directly let it change based on its understanding, it will likely drift f
 
 Its thinking process will often be corrected a lot.
 
-If you find:  
-— You've already pasted debug logs, and it still can't think correctly, then you need to think back: is your description of the problem phenomenon itself not clear enough, or even wrong?
+If you find that you've already pasted debug logs, and it still can't think correctly, then you need to think back: is your description of the problem phenomenon itself not clear enough, or even wrong?
 
 Often, the essential reason debug doesn't succeed is that **the problem space itself wasn't described clearly**. When you can't describe it clearly, or even can't describe the problem space, AI can't help much.
 
-### 6. Step Five: When AI Enters Deep Waters, "Account" First, Then Switch
+### 6. Step five: when AI enters deep waters, "account" first, then switch
 
 In the animation queue bug, we saw a typical deep-water scenario:
 
@@ -101,7 +100,7 @@ The approach at this point is:
 
 After we actually solve the problem, delete these procedural pieces of information, and finally only keep the conclusive document.
 
-### 7. Step Six: Start a New, Stronger Session, Continue from the Document
+### 7. Step six: start a new, stronger session, continue from the document
 
 Next, you should start a new session:
 
@@ -113,11 +112,11 @@ Next, you should start a new session:
 At this stage, it's actually very close to "traditional manual debugging":  
 On one hand, try to let AI continue writing; on the other hand, humans also need to start reading.
 
-This is a typical example of AI entering deep waters—you only encounter it in particularly complex modules, but once you do, you must accept:
+This is a typical example of AI entering deep waters. You only encounter it in particularly complex modules, but once you do, you must accept:
 
 > **Humans need to step in and read code.**
 
-### 8. Debug Workflow Summary
+### 8. Debug workflow summary
 
 Summary:
 
@@ -133,9 +132,9 @@ This way, when you encounter similar problems next time:
 - You know how to optimize descriptions to make problem descriptions clearer
 - You also know AI's capabilities and limitations, which links need to be reserved for humans in advance
 
-> This summary is mutually confirmed with the standard process for medium-to-high complexity requirements in [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+> This summary is mutually confirmed with the standard process for medium-to-high complexity requirements in [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md).
 
-### 9. Key Principle: Even If AI Fixes It Correctly, Don't Accept "Accidental Fixes"
+### 9. Key principle: even if AI fixes it correctly, don't accept "accidental fixes"
 
 In the entire debug flow, there are several key principles:
 

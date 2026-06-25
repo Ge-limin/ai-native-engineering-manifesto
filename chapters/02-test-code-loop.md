@@ -1,10 +1,10 @@
-## Chapter 2: Test–Code Loop—Why Test Code Is More Important Than Functional Code
+## Chapter 2: Test/Code Loop: Why Test Code Is More Important Than Functional Code
 
-> "You must spend a lot of time—more than 50%—writing testing code."
+> "You must spend a lot of time, more than 50%, writing testing code."
 
 > Extended reading: Why the test case library is the only reliable asset in a stateless world, see [*AI Statelessness and Context Window*](./01-ai-statelessness-and-context-window.md).
 
-### 1. The Productivity Paradox: Why Nobody Wrote Tests in the Past
+### 1. The productivity paradox: why nobody wrote tests in the past
 
 Before AI, everyone knew test code was important, but in reality, 99% of teams didn't write test code. The reasons were:
 
@@ -15,7 +15,7 @@ Before AI, everyone knew test code was important, but in reality, 99% of teams d
 
 This logic made sense in the past, but it doesn't work today.
 
-### 2. AI "Flattens" Teams: Brain Capacity vs. Code Volume
+### 2. AI "flattens" teams: brain capacity vs. code volume
 
 With AI assistance today, everyone's productivity is too high, directly leading to reduced team size.
 
@@ -28,22 +28,22 @@ This means: **You need to remember and understand in one brain, in one-third of 
 
 For AI-native teams, this is a huge challenge.
 
-### 3. Using Massive Tests to Cover What Brains Can't Cover
+### 3. Using massive tests to cover what brains can't cover
 
 In this situation, how do we ensure software quality? A very natural idea is:
 
 > "Use massive test code to cover the parts your brain can't cover."
 
-- AI is very good at writing test code, because test code isn't difficult—it's pure grunt work
+- AI is very good at writing test code, because test code isn't difficult: it's pure grunt work
 - Humans don't like doing grunt work, but AI has no problem with it
 - We already know very clearly that AI-generated code is unreliable, and human brains can't fully review it
 
 Under this premise, the only effective way to protect yourself is to use massive test cases to cover:
 
 1. When writing new features, you already ensure the new feature is likely correct
-2. In the future, when you modify other code, if you accidentally touch this part, you'll know immediately—use test cases to discover when AI oversteps and touches things it shouldn't
+2. In the future, when you modify other code, if you accidentally touch this part, you'll know immediately. Use test cases to discover when AI oversteps and touches things it shouldn't
 
-### 4. Programming in Chaos: The Essence of Test–Code
+### 4. Programming in chaos: the essence of Test/Code
 
 > "Today's AI programming can be understood as programming in uncertainty, in chaos, in confusion. We already know very clearly that AI-generated code is unreliable."
 
@@ -59,7 +59,7 @@ In this situation, the only effective thing to protect yourself is your test cas
 
 Test cases can always protect you at all levels, all scopes, and all links.
 
-### 5. Managing AI-Generated Tests: Frameworks and Constraints
+### 5. Managing AI-generated tests: frameworks and constraints
 
 First, test code must of course meet your requirements. At the beginning, you still need to set up the testing framework and testing conventions.
 
@@ -74,7 +74,7 @@ Second, when modifying code and reviewing code, you must spend a lot of time and
   - Should it be touched?
 - If you can't explain why test cases were touched, it means this work might need to be redone
 
-### 6. Defect Explosion: Why "Just Writing a Bit More Code" Becomes a Disaster
+### 6. Defect explosion: why "just writing a bit more code" becomes a disaster
 
 In Silicon Valley, many teams work on AI testing. They have a curve chart:
 
@@ -92,12 +92,12 @@ So it becomes:
 
 > The slope of defect quantity is the highest, followed by code quantity, and finally test engineer quantity.
 
-The number of test engineers cannot expand 3–4 times overnight.  
+The number of test engineers cannot expand 3 to 4 times overnight.  
 This means: several times more defects appearing overnight cannot be covered by humans.
 
 This is a very dangerous but inevitable trend. We've already seen many cloud vendors and internet infrastructure vendors have many accidents this year, and this is the reason.
 
-### 7. Test–Code Loop: From "Code-First" to "Test-First"
+### 7. Test/Code Loop: from "code-first" to "test-first"
 
 > "The test-to-code loop is essentially because code productivity has risen too fast."
 
@@ -109,11 +109,8 @@ This also explains why, in this context, test code is more important than functi
 - Before: Functional code was most important, test code was said to be important but no one actually wrote a single line
 - Now: Test code is much more important than functional code
 
-Because often, AI-modified functional code has far exceeded your cognitive burden and cognitive limits—you simply can't grasp it.  
-At this point, the only thing you can trust is your entire set of massive test code:
+Because often, AI-modified functional code has far exceeded your cognitive burden and cognitive limits: you simply can't grasp it.  
+At this point, the only thing you can trust is your entire set of massive test code. When the test code passes, it means the changes are likely still controllable. When the test code fails, it's recommended to carefully review, or even try to redo this work.
 
-- **Test code passes**: It means the changes are likely still controllable
-- **Test code fails**: It's recommended to carefully review, or even try to redo this work
-
-> In deep-water debugging scenarios, how tests work with logs and documentation, see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md) and [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+> In deep-water debugging scenarios, how tests work with logs and documentation, see [*Debugging: Finding Bugs with AI in Deep Waters*](./03-debugging-with-ai.md) and [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md).
 

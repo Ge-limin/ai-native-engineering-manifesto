@@ -1,12 +1,12 @@
 ## Chapter 1: AI Statelessness and Context Window
 
-> "Understanding AI hinges on understanding its statelessness. Your codebase should shed all procedural and historical baggage so that any reader—every AI session—needs zero historical context to operate."
+> "Understanding AI hinges on understanding its statelessness. Your codebase should shed all procedural and historical baggage so that any reader, every AI session, needs zero historical context to operate."
 
-> Extended reading: How the test system provides a safety net for uncertainty in a stateless world, see [*Test–Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md).
+> Extended reading: How the test system provides a safety net for uncertainty in a stateless world, see [*Test/Code Loop: Why Test Code Is More Important Than Functional Code*](./02-test-code-loop.md).
 
-### 1. Understanding AI Statelessness
+### 1. Understanding AI statelessness
 
-Understanding AI hinges on understanding its statelessness. Your codebase should shed all procedural and historical baggage so that any reader—every AI session—needs zero historical context to operate.
+Understanding AI hinges on understanding its statelessness. Your codebase should shed all procedural and historical baggage so that any reader, every AI session, needs zero historical context to operate.
 
 If an AI's context and capabilities have an upper bound for a single work session, we need to let AIs work in relay on the same problem. A better approach is:
 
@@ -21,12 +21,12 @@ Codebases cannot contain large amounts of documentation. We once tried a workflo
 - Then write code based on the execution record
 - When code is half-written, come back and update that execution record
 
-We used this approach for over a dozen requirements, but eventually couldn't bear it anymore. The reason was that the documentation it produced was simply too much—human brains couldn't read through it all. If human brains can't read through it, imagine what happens to your codebase: you lose control, you don't know what AI will fill in, and you have no way to evaluate or review AI's work. It will inevitably collapse very quickly.
+We used this approach for over a dozen requirements, but eventually couldn't bear it anymore. The reason was that the documentation it produced was simply too much: human brains couldn't read through it all. If human brains can't read through it, imagine what happens to your codebase: you lose control, you don't know what AI will fill in, and you have no way to evaluate or review AI's work. It will inevitably collapse very quickly.
 
-### 2. Code as Documentation: Why We Should Abandon Historical Information
+### 2. Code as documentation: why we should abandon historical information
 
 Codebases cannot have too much documentation, because a good goal that everyone pursues is "code as documentation."  
-If your code is written well enough—which is actually achievable with today's AI capabilities—it can do well in naming and structural organization.
+If your code is written well enough, which is actually achievable with today's AI capabilities, it can do well in naming and structural organization.
 
 In this case, you don't need to repeat and convey the same information. Because doing so will occupy its context space, and when you occupy AI's context window, AI becomes dumber.
 
@@ -38,7 +38,7 @@ As long as code and documentation are out of sync, every AI session will receive
 
 Therefore, the amount of documentation in the entire codebase must be kept minimal and clean, and kept in sync as much as possible. Otherwise, you're just reducing AI's capabilities.
 
-### 3. Context Window: The Most Important Resource for Programmers in the New Era
+### 3. Context window: the most important resource for programmers in the new era
 
 > "The upper bound of AI's context window will be the most important 'resource' for programmers in this new era."
 
@@ -61,7 +61,7 @@ Vendors will have a workflow behind the scenes that automatically compresses pre
 
 Empirically, when a session's context left is only 40%, it will already start to "become dumb." At this point, try to restart.
 
-### 4. Session Relay Strategy in a Stateless World
+### 4. Session relay strategy in a stateless world
 
 For requirements of medium complexity and above, a relatively healthy workflow is:
 
@@ -73,20 +73,20 @@ For requirements of medium complexity and above, a relatively healthy workflow i
 After the entire plan is complete, including tests, lint, and quality checks passing, delete this plan.  
 Because this plan contains a lot of procedural information. If a future AI session reads these procedural pieces of information, it will be misled.
 
-A correctly maintained codebase should not contain any procedural information—only result information.  
+A correctly maintained codebase should not contain any procedural information, only result information.  
 It won't say "I changed A to B," otherwise it would require new readers to understand why it was A in the past and why it's B today, creating confusion in their minds.
 
 You should delete all information related to A and only keep B.  
-This way, any new reader—including every new AI session—doesn't need to try to understand "what once existed."
+This way, any new reader, including every new AI session, doesn't need to try to understand "what once existed."
 
-> The complete form of this relay strategy in actual workflows, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+> The complete form of this relay strategy in actual workflows, see [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md).
 
-### 5. Full/Snapshot Documentation vs. Incremental Documentation
+### 5. Full/snapshot documentation vs. incremental documentation
 
 Documentation is essentially helping large models cache memory.  
 **Full, snapshot-style documentation is superior to incremental documentation.**
 
-AI's capability upper bound is the upper bound of its context window. Humans are the same—human context windows also have upper bounds.  
+AI's capability upper bound is the upper bound of its context window. Humans are the same: human context windows also have upper bounds.  
 How do humans handle complex systems? Think about how large companies collaborate:
 
 - Different functions and teams collaborate through clear boundaries and interfaces
@@ -94,5 +94,5 @@ How do humans handle complex systems? Think about how large companies collaborat
 
 Our collaboration with AI is actually simulating this collaboration between different functions and teams in large companies.
 
-> How documentation and code stay in sync in this mode, and how documentation participates in workflows, see [*AI-Native Workflows: Plan–Act, Test–Code, Doc–Code–Doc*](./05-ai-native-workflows.md).
+> How documentation and code stay in sync in this mode, and how documentation participates in workflows, see [*AI-Native Workflows: Plan/Act, Test/Code, Doc/Code/Doc*](./05-ai-native-workflows.md).
 
