@@ -2,6 +2,8 @@
 
 > English version: [AI-Native Engineering Manifesto (English)](./readme.md)  
 > 本仓库还包含一组中文长文扩展章节，位于 `chapters-zh/` 目录，对 11 条真相中的部分主题做了系统展开。
+>
+> 📖 **网页阅读版**：见 [liminge.space/manifesto](https://liminge.space/manifesto)。
 
 [![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025-cn)
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-cn)
@@ -154,3 +156,9 @@
 5. 每一个具体故障都得映射回九层模型。文章里举的例子：旧 README 误导 AI agent，POC 被写进 BP，`skill` 升级成 `workflow` 但命名没改，内部 API 悄悄变成 contract，测试入口膨胀，日志和错误文案停留在旧概念，迁移计划完成后仍留在 current-work，临时 adapter / fallback 变成了事实来源。解决办法不是“多沟通”，而是每次都回答三个问题：该更新哪一层，那一层里哪类事实变了，有什么 evidence 能证明变更已经完成。
 
 6. Evidence 得跟着产品重心一起迁移。一片绿的 legacy 测试，可能只证明了昨天的主线，今天真正要发布的那条路径却根本没被证明过。测试、日志、状态命令、release evidence、provider 检查、线上事实，都要跟着当前的产品承诺和 Flow 走。不然 CICD 一片绿，真实产品照样不安全。
+
+---
+
+## License
+
+本宣言的正文（README 与全部章节）以 [CC BY 4.0](LICENSE) 授权——注明出处即可自由转载、翻译、改编。正文中内嵌的代码片段为 MIT 授权。

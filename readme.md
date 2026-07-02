@@ -2,6 +2,7 @@
 
 > 中文版请见：[AI-Native 工程宣言（中文）](./readme-zh.md)  
 > Extended deep-dive chapters live under `chapters/`, expanding several of the 11 hard truths into full articles.
+> 📖 **E-book**: a curated, book-style web edition lives at [liminge.space/manifesto](https://liminge.space/manifesto). 
 
 [![Revision March 2025](https://img.shields.io/badge/Revision-March_2025-0a84ff)](#march-2025)
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-revision)
@@ -389,3 +390,9 @@ The following chapters provide more systematic, engineering-focused expansions o
 6. **Evidence must move with product focus.**
 
    A green legacy test suite can prove yesterday's mainline while today's release path remains unproven. Tests, logs, status commands, release evidence, provider checks, and production facts must follow the current product promise and Flow. Otherwise CICD can be green while the real product is unsafe to release.
+
+---
+
+## License
+
+The text of this manifesto (README and all chapters) is licensed under [CC BY 4.0](LICENSE) — share and adapt freely with attribution. Code snippets embedded in the text are MIT.
