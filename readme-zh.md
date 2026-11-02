@@ -9,6 +9,7 @@
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-cn)
 [![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#dec-2025-cn)
 [![Revision May 2026](https://img.shields.io/badge/Revision-May_2026-af52de)](#may-2026-cn)
+[![Revision Oct 2026](https://img.shields.io/badge/Revision-Oct_2026-0a84ff)](#oct-2026-cn)
 
 ---
 
@@ -20,13 +21,14 @@
 - [May 2025 修订](#may-2025-cn)
 - [Dec 2025 修订](#dec-2025-cn)
 - [May 2026 修订](#may-2026-cn)
+- [Oct 2026 修订](#oct-2026-cn)
 
 ## AI-Native的软件工程理念
 
 | **Author** | [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/) |
 | --- | --- |
 | **First Draft** | March 2025 |
-| **Revisions** | May 2025, December 2025, May 2026 |
+| **Revisions** | May 2025, December 2025, May 2026, October 2026 |
 
 ---
 
@@ -156,6 +158,24 @@
 5. 每一个具体故障都得映射回九层模型。文章里举的例子：旧 README 误导 AI agent，POC 被写进 BP，`skill` 升级成 `workflow` 但命名没改，内部 API 悄悄变成 contract，测试入口膨胀，日志和错误文案停留在旧概念，迁移计划完成后仍留在 current-work，临时 adapter / fallback 变成了事实来源。解决办法不是“多沟通”，而是每次都回答三个问题：该更新哪一层，那一层里哪类事实变了，有什么 evidence 能证明变更已经完成。
 
 6. Evidence 得跟着产品重心一起迁移。一片绿的 legacy 测试，可能只证明了昨天的主线，今天真正要发布的那条路径却根本没被证明过。测试、日志、状态命令、release evidence、provider 检查、线上事实，都要跟着当前的产品承诺和 Flow 走。不然 CICD 一片绿，真实产品照样不安全。
+
+---
+
+<a id="oct-2026-cn"></a>
+## Oct 2026 修订
+
+[AI Harness Kit](https://github.com/Ge-limin/ai-harness-kit) 是本宣言在 2026 年 10 月的实践补充，收录我日常实际使用的规范、工具配置与工作流程。也可查看[公开阅读版](https://liminge.space/cn/ai-harness-kit)。
+
+### 核心价值
+
+1. 务实工程决策，平衡迭代速度与技术债务
+2. QoL 与 DX 优先，降低认知与操作负担
+3. Agent Swarm 自主驱动与高效协同
+4. 任务主动拆分隔离与自主集成
+5. 高效语义集成与上下文贯通
+6. Codex Token 耐用度提升 100%+
+7. 克服 GPT 过度防御与保守倾向
+8. Agent 自然表达，告别机器腔
 
 ---
 

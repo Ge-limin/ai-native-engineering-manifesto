@@ -8,6 +8,7 @@
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-revision)
 [![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#december-2025-revision)
 [![Revision May 2026](https://img.shields.io/badge/Revision-May_2026-af52de)](#may-2026-revision)
+[![Revision Oct 2026](https://img.shields.io/badge/Revision-Oct_2026-0a84ff)](#october-2026-revision)
 
 ---
 
@@ -19,13 +20,14 @@
 - [May 2025 Revision](#may-2025-revision)
 - [December 2025 Revision](#december-2025-revision)
 - [May 2026 Revision](#may-2026-revision)
+- [October 2026 Revision](#october-2026-revision)
 
 # AI-Native Software Engineering
 
 | **Author** | [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/) |
 | --- | --- |
 | **First Draft** | March 2025 |
-| **Revisions** | May 2025, December 2025, May 2026 |
+| **Revisions** | May 2025, December 2025, May 2026, October 2026 |
 
 ---
 
@@ -390,6 +392,24 @@ The following chapters provide more systematic, engineering-focused expansions o
 6. **Evidence must move with product focus.**
 
    A green legacy test suite can prove yesterday's mainline while today's release path remains unproven. Tests, logs, status commands, release evidence, provider checks, and production facts must follow the current product promise and Flow. Otherwise CICD can be green while the real product is unsafe to release.
+
+---
+
+<a id="october-2026-revision"></a>
+## October 2026 Revision
+
+[AI Harness Kit](https://github.com/Ge-limin/ai-harness-kit) is the October 2026 practical companion to this manifesto, collecting the conventions, tool configurations, and workflows I use daily. A [public reading edition](https://liminge.space/ai-harness-kit) is also available.
+
+### Core values
+
+1. Pragmatic engineering decisions that balance iteration speed and technical debt
+2. Prioritize QoL and DX to reduce cognitive and operational burden
+3. Autonomous execution and efficient coordination through Agent Swarm
+4. Proactive task decomposition, isolation, and autonomous integration
+5. Efficient semantic integration and continuity of context
+6. 100%+ improvement in Codex token efficiency
+7. Overcome GPT’s tendency toward excessive defensiveness and caution
+8. Natural agent communication without robotic phrasing
 
 ---
 
