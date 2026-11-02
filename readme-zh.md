@@ -162,3 +162,10 @@
 ## License
 
 本宣言的正文（README 与全部章节）以 [CC BY 4.0](LICENSE) 授权——注明出处即可自由转载、翻译、改编。正文中内嵌的代码片段为 MIT 授权。
+
+---
+
+<a id="oct-2026-cn"></a>
+## Oct 2026 修订
+
+[AI Harness Kit](https://github.com/Ge-limin/ai-harness-kit) 是本宣言在 2026 年 10 月的实践补充，收录我日常实际使用的规范、工具配置与工作流程。也可查看[公开阅读版](https://liminge.space/cn/ai-harness-kit)。

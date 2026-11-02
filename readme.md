@@ -396,3 +396,10 @@ The following chapters provide more systematic, engineering-focused expansions o
 ## License
 
 The text of this manifesto (README and all chapters) is licensed under [CC BY 4.0](LICENSE) — share and adapt freely with attribution. Code snippets embedded in the text are MIT.
+
+---
+
+<a id="october-2026-revision"></a>
+## October 2026 Revision
+
+[AI Harness Kit](https://github.com/Ge-limin/ai-harness-kit) is the October 2026 practical companion to this manifesto, collecting the conventions, tool configurations, and workflows I use daily. A [public reading edition](https://liminge.space/ai-harness-kit) is also available.
