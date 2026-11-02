@@ -9,6 +9,7 @@
 [![Revision May 2025](https://img.shields.io/badge/Revision-May_2025-34c759)](#may-2025-cn)
 [![Revision Dec 2025](https://img.shields.io/badge/Revision-Dec_2025-ff9f0a)](#dec-2025-cn)
 [![Revision May 2026](https://img.shields.io/badge/Revision-May_2026-af52de)](#may-2026-cn)
+[![Revision Oct 2026](https://img.shields.io/badge/Revision-Oct_2026-0a84ff)](#oct-2026-cn)
 
 ---
 
@@ -20,13 +21,14 @@
 - [May 2025 修订](#may-2025-cn)
 - [Dec 2025 修订](#dec-2025-cn)
 - [May 2026 修订](#may-2026-cn)
+- [Oct 2026 修订](#oct-2026-cn)
 
 ## AI-Native的软件工程理念
 
 | **Author** | [Limin Ge](https://www.linkedin.com/in/limin-ge-573b4b28a/) |
 | --- | --- |
 | **First Draft** | March 2025 |
-| **Revisions** | May 2025, December 2025, May 2026 |
+| **Revisions** | May 2025, December 2025, May 2026, October 2026 |
 
 ---
 
@@ -159,13 +161,24 @@
 
 ---
 
-## License
-
-本宣言的正文（README 与全部章节）以 [CC BY 4.0](LICENSE) 授权——注明出处即可自由转载、翻译、改编。正文中内嵌的代码片段为 MIT 授权。
-
----
-
 <a id="oct-2026-cn"></a>
 ## Oct 2026 修订
 
 [AI Harness Kit](https://github.com/Ge-limin/ai-harness-kit) 是本宣言在 2026 年 10 月的实践补充，收录我日常实际使用的规范、工具配置与工作流程。也可查看[公开阅读版](https://liminge.space/cn/ai-harness-kit)。
+
+### 核心价值
+
+1. 务实工程决策，平衡迭代速度与技术债务
+2. QoL 与 DX 优先，降低认知与操作负担
+3. Agent Swarm 自主驱动与高效协同
+4. 任务主动拆分隔离与自主集成
+5. 高效语义集成与上下文贯通
+6. Codex Token 耐用度提升 100%+
+7. 克服 GPT 过度防御与保守倾向
+8. Agent 自然表达，告别机器腔
+
+---
+
+## License
+
+本宣言的正文（README 与全部章节）以 [CC BY 4.0](LICENSE) 授权——注明出处即可自由转载、翻译、改编。正文中内嵌的代码片段为 MIT 授权。
